@@ -1,0 +1,34 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{enumitem}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Assignment 1 Solutions}
+\author{Chamarthy Madhan Sai Krishna - 2023102030}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section*{Question 2}
+\subsection*{a}
+\subsection*{b}
+\subsection*{c}
+The Observation:
+You will likely observe that the threshold voltage ($V_T$) estimated for Case (b) ($V_{DS} = 1.8V$) is lower than the $V_T$ estimated for Case (a) ($V_{DS} = 50mV$).
+\textbf{Drain-Induced Barrier Lowering (DIBL)}In a modern short-channel MOSFET, as the drain voltage ($V_{DS}$) increases, the depletion region around the drain extends further into the channel toward the source. This drain depletion region helps the gate "pull down" the potential barrier between the source and the channel. Because the drain is effectively helping the gate turn the transistor on, a lower gate voltage ($V_{GS}$) is required to create the inversion layer, resulting in a lower apparent $V_T$.
+\subsection*{d}
+\subsection*{e}
+Estimating the Subthreshold Slope Factor ($\eta$):Using the provided natural exponential relationship $I_D = I_0 \exp\left( \frac{V_{GS}}{\eta V_{thermal}} \right)$, we can derive $\eta$ using the slope of your graph:Convert to Natural Log: $\ln(I_D) = \ln(I_0) + \frac{V_{GS}}{\eta V_{thermal}}$Find the Slope ($m$): Pick two points on the straight-line portion of your subthreshold curve: $(V_{GS1}, \ln(I_{D1}))$ and $(V_{GS2}, \ln(I_{D2}))$.$$m = \frac{\ln(I_{D2}) - \ln(I_{D1})}{V_{GS2} - V_{GS1}}$$Solve for $\eta$: Since the slope $m = \frac{1}{\eta V_{thermal}}$:$$\eta = \frac{1}{m \cdot V_{thermal}}$$(Note: Use $V_{thermal} \approx 25.9mV$ at room temperature).
+\section*{Question 3}
+% Write your answer here.
+
+\section*{Question 4}
+% Write your answer here.
+
+% Add more sections as needed for additional questions.
+
+\end{document}

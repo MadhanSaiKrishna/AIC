@@ -24,11 +24,14 @@ You will likely observe that the threshold voltage ($V_T$) estimated for Case (b
 \subsection*{e}
 Estimating the Subthreshold Slope Factor ($\eta$):Using the provided natural exponential relationship $I_D = I_0 \exp\left( \frac{V_{GS}}{\eta V_{thermal}} \right)$, we can derive $\eta$ using the slope of your graph:Convert to Natural Log: $\ln(I_D) = \ln(I_0) + \frac{V_{GS}}{\eta V_{thermal}}$Find the Slope ($m$): Pick two points on the straight-line portion of your subthreshold curve: $(V_{GS1}, \ln(I_{D1}))$ and $(V_{GS2}, \ln(I_{D2}))$.$$m = \frac{\ln(I_{D2}) - \ln(I_{D1})}{V_{GS2} - V_{GS1}}$$Solve for $\eta$: Since the slope $m = \frac{1}{\eta V_{thermal}}$:$$\eta = \frac{1}{m \cdot V_{thermal}}$$(Note: Use $V_{thermal} \approx 25.9mV$ at room temperature).
 \section*{Question 3}
-% Write your answer here.
+\subsection*{a}
+Theoretically, $f_T \approx \frac{g_m}{2\pi(C_{gs} + C_{gd})}$. As technology scales from 180nm to 130nm, capacitances decrease significantly, and $f_T$ increases. You should expect the 130nm node to have a much higher $f_T$ than the 180nm nodes.
+\subsection*{b}
+Scaling vs. Gain: You will likely observe that the 130nm node has the lowest intrinsic gain. This is because as $L$ decreases, the Channel Length Modulation ($\lambda$) effect becomes more severe, increasing $g_{ds}$ (lowering $r_o$) and killing the gain.TSMC vs. SCL: Even though both are 180nm, they will have different doping profiles and oxide thicknesses. The one with the lower $g_{ds}$ (higher $r_o$) is "better" for high-gain analog design.Hand Calculation Model: In simple models, we use $A_v = \frac{2}{\lambda (V_{GS}-V_T)}$. This suggests that to maximize gain in any node, you should use lower overdrive voltages and longer channel lengths.
 
 \section*{Question 4}
-% Write your answer here.
 
-% Add more sections as needed for additional questions.
+
+Cascading Two StagesWhen cascading, you cannot connect the output of Stage 1 directly to the gate of Stage 2 because their DC levels might conflict. You must use AC Coupling.Cascaded Schematic:Stage 1: Identical to the first circuit.Interstage Coupling: Connect a capacitor ($C_{cascade}$) from the output of Stage 1 to the gate of Stage 2.Stage 2 Biasing: Stage 2 needs its own resistive divider to set its gate to $0.9V$.Expected Cascaded Results:Total Gain: $A_{total} = A_{v1} \times A_{v2}$. If one stage gives $-30$, the cascade should give roughly $+900$ V/V (Note the phase becomes positive).THD for $A_{max}$: Because the gain is now much higher, the $A_{max}$ you found for a single stage will cause massive clipping in the second stage.Observation: You will find that for the two-stage amplifier, the new $A_{max}$ is significantly smaller (often in the micro-volt range) to keep the second stage from saturating and keeping THD < 10%.
 
 \end{document}

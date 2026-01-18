@@ -7,21 +7,33 @@
 \usepackage{float} 
 \geometry{margin=1in}
 
-\title{Assignment 1 Solutions}
-\author{Chamarthy Madhan Sai Krishna - 2023102030}
+\title{\textbf{Analog IC Design} \\ \Large Assignment 1}
+\author{Chamarthy Madhan Sai Krishna \\ 2023102030}
 \date{\today}
-
 \begin{document}
-
 \maketitle
 
 \section*{Question 2}
+Use the given SCL model file and plot $I_D$ vs $V_{GS}$ for a $10\,\mu\text{m}/1\,\mu\text{m}$ NMOS transistor and estimate its $V_T$ from the graph for the following cases  
+(Suggested reading: \textit{Operation and Modeling of the MOS Transistor}, second ed., by Tsividis, Sections 10.4 and 4.10):
 
-\subsection*{a}
-
-Linear Region Threshold voltage extraction: ($V_{DS} = 50\text{mV}$), since $V_{DS}$ is very small ($V_{DS} << V_{GS} - V_{Th}$), the MOSFET is in the triode region. The current is approximately (neglecting the $\alpha$ parameter) modeled as:
+\begin{enumerate}[label=(\alph*)]
+    \item $V_{DS} = 50~\text{mV}$ and $V_{GS}$ is swept from $0$ to $1.8~\text{V}$ in steps of $0.1~\text{V}$.
+    \item $V_{DS} = 1.8~\text{V}$ and $V_{GS}$ is swept from $0$ to $1.8~\text{V}$ in steps of $0.1~\text{V}$.
+    \item Do you observe any difference in $V_T$ values in cases (a) and (b)? If yes, explain why and indicate which one you will use for hand calculations with simple MOS models.
+    \item Estimate the technology parameter $\mu C_{\text{ox}}$ from simulations and simple MOS models.
+    \item Plot $I_D$ vs $V_{GS}$ for $V_{DS} = 50~\text{mV}$ and $V_{DS} = 1.8~\text{V}$. Clearly mark the subthreshold region on the graphs.  
+    From the plots, and using the simple exponential relationship
+    \[
+        I_D = I_0 \exp\left(\frac{V_{GS}}{\eta V_{\text{thermal}}}\right),
+    \]
+    estimate the process parameter $\eta$.
+\end{enumerate}
+\section*{Solution:}
+\subsection*{(a) Linear Region ($V_{DS} = 50\text{mV}$):} 
+Since $V_{DS}$ is very small ($V_{DS} << V_{GS} - V_{Th}$), the MOSFET is in the triode region. The current is approximately (neglecting the $\alpha$ parameter that's described in Tsividis) modeled as:
 $$I_D = \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)V_{DS}$$
-The transconductance $g_m = \frac{\partial I_D}{\partial V_{GS}}$ is maximum at the point of strongest inversion. A tangent line is drawn to the $I_D$ curve at this maximum slope point. The x-axis intercept of this tangent ($V_{GS,int}$) is identified. The threshold voltage is then calculated using the Tsividis correction:
+The transconductance $g_m = \frac{\partial I_D}{\partial V_{GS}}$ is maximum at the point of strongest inversion. A tangent line is drawn to the $I_D$ curve at this maximum slope point. The x-axis intercept of this tangent ($V_{GS,int}$) is identified.
 $$V_T = V_{GS,int}$$
 
 \begin{figure}[H]
@@ -42,7 +54,7 @@ $$V_T = V_{GS,int}$$
     \caption{Tangent Line at Maximum Slope Point for $V_{DS} = 50mV$}
 \end{figure}
 
-Slope ($m$): $99.697572 \times 10^{-6} \text{ S}$ (or $\mu\text{A/V}$) \\
+Slope ($m$): $99.697572 \times 10^{-6} \text{ S}$ \\
 Point ($V_{GS0}, I_{D0}$): $(1.35 \text{ V}, 78.167927 \text{ }\mu\text{A})$
 
 The equation of the line is given by:
@@ -51,8 +63,8 @@ Substituting your values (using $\mu\text{A}$ for current):
 $$I_D - 78.167927 = 99.697572(V_{GS} - 1.35)$$
 
 $$V_{GS,int} = V_{Threshold} = \frac{56.423795}{99.697572}$$
-$$V_{Threshold,linear} \approx 0.56595 \text{ V}$$
-\subsection*{b}
+$$V_{Threshold,linear} \approx \textbf{0.56595} \text{ V}$$
+\subsection*{(b) Saturation Region ($V_{DS} = 1.8\text{V}$):}
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/2_b_1.png}
@@ -82,71 +94,49 @@ $x$ = $V_{GS}$ \\
 Slope ($m$) = $\sqrt{\frac{1}{2} \mu_n C_{ox} \frac{W}{L}}$ \\
 Constant ($c$) = $-m \cdot V_T$
 
-When you plot $\sqrt{I_D}$ vs. $V_{GS}$, the plot will have a linear portion. By extending (extrapolating) this linear part down to the x-axis (where $\sqrt{I_D} = 0$), the intercept gives the saturation threshold voltage directly.
-
-Analytical Step:
-If you have the slope ($m$) and a point $(V_{GS0}, \sqrt{I_{D0}})$ from the linear region:
-Find the intercept form: $\sqrt{I_D} = m \cdot V_{GS} + c$
+Using the slope ($m$) and a point $(V_{GS0}, \sqrt{I_{D0}})$ from the linear region, we can find the intercept.
+The linear equation is: $\sqrt{I_D} = m \cdot V_{GS} + c$
 The x-intercept occurs when $\sqrt{I_D} = 0$:
-$$0 = m \cdot V_{GS,int} + c$$
-$$V_{GS,int} = -\frac{c}{m}$$
-
-$V_{T,sat} = V_{GS,int}$
+$$0 = m \cdot V_{GS,int} + c \implies V_{GS,int} = -\frac{c}{m}$$
+Thus, $V_{T,sat} = V_{GS,int}$.
 
 Slope ($m$): $28.472661 \sqrt{\mu\text{A}}/\text{V}$ \\
 Point ($V_{GS0}, \sqrt{I_{D0}}$): $(0.54095185\text{ V}, \sqrt{19.296581} \sqrt{\mu\text{A}})$ \\
 $\sqrt{I_{D0}} \approx 4.392787 \sqrt{\mu\text{A}}$
 
-Using the point-slope form $y - y_0 = m(x - x_0)$ where $y = \sqrt{I_D}$ (in $\mu\text{A}$):
+Substituting these values into the point-slope form $y - y_0 = m(x - x_0)$ where $y = \sqrt{I_D}$ (in $\mu\text{A}$):
 $$\sqrt{I_D} - 4.392787 = 28.472661(V_{GS} - 0.540952)$$
-Expanding to find the intercept form ($\sqrt{I_D} = m \cdot V_{GS} + c$):
+Expanding to find the intercept form:
 $$\sqrt{I_D} = 28.472661 \cdot V_{GS} - (28.472661 \times 0.540952) + 4.392787$$
 $$\sqrt{I_D} = 28.472661 \cdot V_{GS} - 15.402338 + 4.392787$$
 $$\sqrt{I_D} = 28.472661 \cdot V_{GS} - 11.009551$$
 
-$$V_{GS,int} = V_{Threshold} \frac{11.009551}{28.472661}$$
-$$V_{GS,int} \approx \mathbf{0.38667 \text{ V}}$$
+$$V_{GS,int} = V_{Threshold,Saturation} \approx \mathbf{0.38667 \text{ V}}$$
 
-In the saturation region ($V_{DS} = 1.8\text{V}$), the x-intercept of the $\sqrt{I_D}$ plot is directly taken as the threshold voltage:
-$$V_{Threshold,saturation} = \mathbf{0.387 \text{ V}}$$
-
-The transition frequency is fundamentally governed by the ratio of the transconductance to the total input capacitance:
-$$f_T \approx \frac{g_m}{2\pi (C_{gs} + C_{gd})}$$
-
-SCL 180nm vs. TSMC 180nm \\
-Even though both technologies share the same 180nm feature size, the SCL 180nm (64.9 GHz) significantly outperforms the TSMC 180nm (43.26 GHz). This discrepancy is likely due to differences in the process parameters provided in their respective library files. SCL may have a thinner gate oxide ($t_{ox}$), leading to a higher $C_{ox}$ and thus higher $g_m$ for the same bias. Additionally, lower parasitic overlap capacitances in the SCL model would lead to a higher $f_T$.
-
-\subsection*{c}
+\subsection*{(c) Comparison of $V_T$ Values}
 
 Case (a) Linear Region ($V_{DS} = 50\text{mV}$): $V_{T,lin} \approx 0.541\text{V}$ \\
 Case (b) Saturation Region ($V_{DS} = 1.8\text{V}$): $V_{T,sat} \approx 0.387\text{V}$
 
-The threshold voltage decreases by approximately $154\text{mV}$ as the drain-source voltage increases from $50\text{mV}$ to $1.8\text{V}$.
+The threshold voltage decreased by approximately $154\text{mV}$ as the drain-source voltage increased from $50\text{mV}$ to $1.8\text{V}$.
 
-The primary physical reason for this difference is Drain-Induced Barrier Lowering (DIBL).
+This reduction is primarily due to Drain-Induced Barrier Lowering (DIBL). As $V_{DS}$ increases, the high drain potential lowers the potential barrier at the source end of the channel found in these sub-micron devices. Consequently, a lower gate voltage is required to invert the channel, resulting in a lower effective threshold voltage in saturation.
 
-In a MOSFET, the threshold voltage represents the gate potential required to lower the energy barrier between the source and the channel enough to allow significant carrier flow. In modern sub-micron nodes like the 180nm process, the depletion region around the drain extends significantly toward the source as $V_{DS}$ increases.
+For hand calculations using simple MOS models, I will use the threshold voltage extracted from Case (a) ($V_{DS} = 50\text{mV}$), i.e., $V_T \approx 0.541\text{V}$.
+The simple square-law models assume $V_T$ is a constant parameter and do not account for DIBL. Therefore, the value extracted at low $V_{DS}$ represents the intrinsic threshold voltage of the process and is the appropriate choice for basic hand calculations.
 
-This high drain potential effectively "pulls down" the potential barrier at the source end of the channel. Since the drain is assisting the gate in lowering this barrier, a lower gate voltage ($V_{GS}$) is required to reach the same level of inversion (turning the transistor "on"). This results in the observed drop in the effective threshold voltage at high $V_{DS}$.
+\subsection*{(d) Estimation of Technology Parameter $\mu_n C_{ox}$}
 
-Selection for Hand Calculations:
-For hand calculations using simple MOS models (such as the square-law equation), you should use the $V_T$ extracted from Case (a) ($V_{DS} = 50\text{mV}$).
+To estimate the technology parameter $\mu_n C_{ox}$ (also known as the process transconductance parameter $k'_n$), we use the slopes extracted from the simulation data and relate them to the simple MOS models for both the linear and saturation regions.
 
-Reasoning:
-Intrinsic Accuracy: Simple models assume $V_T$ is a constant technology parameter. The extraction at very low $V_{DS}$ provides the "intrinsic" threshold voltage, as it minimizes secondary high-field effects like DIBL and Channel Length Modulation.
-Model Consistency: Basic equations like $I_D = \frac{1}{2}\mu C_{ox} \frac{W}{L}(V_{GS}-V_T)^2$ do not have built-in terms to account for $V_T$ shifting with $V_{DS}$. Using the linear-region $V_T$ ensures that your hand calculations remain closer to the fundamental process specifications provided in the PDK.
-\subsection*{d}
-
-To estimate the technology parameter $\mu_n C_{ox}$ (also known as the process transconductance parameter $k'_n$), we use the slopes extracted from your simulation data and relate them to the simple square-law MOS models for both the linear and saturation regions.
-
-1. Estimation from the Linear Region ($V_{DS} = 50\text{mV}$)
+\textbf{1. Estimation from the Linear Region ($V_{DS} = 50\text{mV}$) }
 
 In the linear region, the simple MOS model for drain current is:
 $$I_D = \mu_n C_{ox} \frac{W}{L} \left[ (V_{GS} - V_T)V_{DS} - \frac{V_{DS}^2}{2} \right]$$
 The transconductance ($g_m$), which is the slope of the $I_D$ vs. $V_{GS}$ curve, is:
 $$g_{m,lin} = \frac{\partial I_D}{\partial V_{GS}} = \mu_n C_{ox} \frac{W}{L} V_{DS}$$
 
-Using your simulated values:
+Using the simulated values:
 Slope ($g_{m,lin}$): $99.697572 \times 10^{-6} \text{ A/V}$ \\
 Drain-Source Voltage ($V_{DS}$): $0.05 \text{ V}$ \\
 Aspect Ratio ($W/L$): $10\mu\text{m} / 1\mu\text{m} = 10$
@@ -154,7 +144,7 @@ Aspect Ratio ($W/L$): $10\mu\text{m} / 1\mu\text{m} = 10$
 $$\mu_n C_{ox} = \frac{g_{m,lin}}{(W/L) \cdot V_{DS}} = \frac{99.697572 \times 10^{-6}}{10 \times 0.05}$$
 $$\mu_n C_{ox} \approx \mathbf{199.40 \text{ }\mu\text{A/V}^2}$$
 
-2. Estimation from the Saturation Region ($V_{DS} = 1.8\text{V}$)
+\textbf{2. Estimation from the Saturation Region ($V_{DS} = 1.8\text{V}$)}
 
 In the saturation region, the square-law relationship is:
 $$I_D = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} (V_{GS} - V_T)^2$$
@@ -163,7 +153,7 @@ $$\sqrt{I_D} = \sqrt{\frac{1}{2} \mu_n C_{ox} \frac{W}{L}} \cdot (V_{GS} - V_T)$
 The slope of the $\sqrt{I_D}$ vs. $V_{GS}$ curve is:
 $$m_{sat} = \sqrt{\frac{1}{2} \mu_n C_{ox} \frac{W}{L}}$$
 
-Using your simulated values:
+Using the simulated values:
 Slope ($m_{sat}$): $28.472661 \text{ mA}^{1/2}/\text{V} = 0.028472661 \text{ A}^{1/2}/\text{V}$ \\
 Aspect Ratio ($W/L$): $10$
 
@@ -171,14 +161,14 @@ $$\mu_n C_{ox} = \frac{2 \cdot m_{sat}^2}{W/L} = \frac{2 \cdot (0.028472661)^2}{
 $$\mu_n C_{ox} \approx \frac{2 \cdot 0.00081069}{10} \approx 0.00016213$$
 $$\mu_n C_{ox} \approx \mathbf{162.13 \text{ }\mu\text{A/V}^2}$$
 
-3. Discussion and Model Selection
+\textbf{3. Explanation}
 
-You will observe that the $\mu_n C_{ox}$ calculated from the linear region ($199.4\text{ }\mu\text{A/V}^2$) is significantly higher than that from the saturation region ($162.1\text{ }\mu\text{A/V}^2$).
+The $\mu_n C_{ox}$ calculated from the linear region ($199.4\text{ }\mu\text{A/V}^2$) is significantly higher than that from the saturation region ($162.1\text{ }\mu\text{A/V}^2$).
 
-Why the values differ:
-Mobility Degradation: In saturation, the vertical electric field (from the gate) and the lateral electric field (from the drain) are much higher. This causes carriers to collide more frequently with the oxide interface, reducing the effective mobility ($\mu_{eff}$) compared to the low-field linear case.
-Velocity Saturation: At $V_{DS} = 1.8\text{V}$, the carriers reach their scattering-limited velocity, which prevents the current from increasing quadratically as the simple model predicts, leading to a lower "apparent" $\mu_n C_{ox}$ in saturation.
-\subsection*{e}
+
+\textbf{Mobility Degradation:} In saturation, the vertical electric field (from the gate) and the lateral electric field (from the drain) are much higher. This causes carriers to collide more frequently with the oxide interface, reducing the effective mobility ($\mu_{eff}$) compared to the low-field linear case. \\
+\textbf{Velocity Saturation:} At $V_{DS} = 1.8\text{V}$, the carriers reach their scattering-limited velocity, which prevents the current from increasing quadratically as the simple model predicts, leading to a lower "apparent" $\mu_n C_{ox}$ in saturation.
+\subsection*{(e) Estimation of subthreshold process parameter $\eta$}
 
 \begin{figure}[H]
     \centering
@@ -186,12 +176,8 @@ Velocity Saturation: At $V_{DS} = 1.8\text{V}$, the carriers reach their scatter
     \caption{Plot of  $\ln(I_D)$ vs. $V_{GS}$ for $V_{DS} = 50mV$}
 \end{figure}
 
-The y-values provided (around $-20$) represent the natural logarithm of the drain current, $\ln(I_D)$, which is standard when identifying the subthreshold slope.
-
 Point 1: $(V_{GS1}, \ln(I_{D1})) = (200.867 \text{ mV}, -20.032)$ \\
 Point 2: $(V_{GS2}, \ln(I_{D2})) = (270.098 \text{ mV}, -18.026)$
-
-2. Mathematical Relationship
 
 The subthreshold current is given by:
 $$I_D = I_0 \exp\left( \frac{V_{GS}}{\eta V_{thermal}} \right)$$
@@ -200,13 +186,8 @@ $$\ln(I_D) = \ln(I_0) + \frac{1}{\eta V_{thermal}} \cdot V_{GS}$$
 This takes the form of a line $y = mx + c$, where the slope $m$ is:
 $$m = \frac{\Delta \ln(I_D)}{\Delta V_{GS}} = \frac{1}{\eta V_{thermal}}$$
 Rearranging for $\eta$:
-$$\eta = \frac{1}{m \cdot V_{thermal}}$$
-
-3. Calculation
-
-Change in Gate Voltage ($\Delta V_{GS}$):
+$$\eta = \frac{1}{m \cdot V_{thermal}}$$ \\
 $$\Delta V_{GS} = 270.09751 \text{ mV} - 200.86674 \text{ mV} = 69.23077 \text{ mV} = 0.06923 \text{ V}$$
-Change in Log Current ($\Delta \ln(I_D)$):
 $$\Delta \ln(I_D) = -18.025813 - (-20.031662) = 2.005849$$
 Slope ($m$):
 $$m = \frac{2.005849}{0.06923} \approx 28.973 \text{ V}^{-1}$$
@@ -215,34 +196,16 @@ Using the standard thermal voltage at $27^{\circ}\text{C}$ ($V_{thermal} \approx
 $$\eta = \frac{1}{28.973 \times 0.02586}$$
 $$\eta \approx \mathbf{1.335}$$
 
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/2_e_2.png}
     \caption{Plot of  $\ln(I_D)$ vs. $V_{GS}$ for $V_{DS} = 1.8V$}
 \end{figure}
 
-The y-axis values are provided as the natural logarithm of the drain current, $\ln(I_D)$.
-
 Point 1: $(V_{GS1}, \ln(I_{D1})) = (198.91658 \text{ mV}, -18.7923)$ \\
-Point 2: $(V_{GS2}, \ln(I_{D2})) = (297.39978 \text{ mV}, -16.083512)$
+Point 2: $(V_{GS2}, \ln(I_{D2})) = (297.39978 \text{ mV}, -16.083512)$\\
 
-2. Mathematical Relationship
-
-The subthreshold current is modeled as:
-$$I_D = I_0 \exp\left( \frac{V_{GS}}{\eta V_{thermal}} \right)$$
-Taking the natural logarithm:
-$$\ln(I_D) = \ln(I_0) + \frac{1}{\eta V_{thermal}} \cdot V_{GS}$$
-The slope ($m$) of the $\ln(I_D)$ vs. $V_{GS}$ plot is:
-$$m = \frac{\Delta \ln(I_D)}{\Delta V_{GS}} = \frac{1}{\eta V_{thermal}}$$
-Rearranging to solve for the subthreshold swing factor $\eta$:
-$$\eta = \frac{1}{m \cdot V_{thermal}}$$
-
-3. Numerical Calculation
-
-Change in Gate Voltage ($\Delta V_{GS}$):
 $$\Delta V_{GS} = 297.39978 \text{ mV} - 198.91658 \text{ mV} = 98.4832 \text{ mV} = 0.0984832 \text{ V}$$
-Change in Log Current ($\Delta \ln(I_D)$):
 $$\Delta \ln(I_D) = -16.083512 - (-18.7923) = 2.708788$$
 Slope ($m$):
 $$m = \frac{2.708788}{0.0984832} \approx 27.505 \text{ V}^{-1}$$
@@ -250,12 +213,48 @@ $$m = \frac{2.708788}{0.0984832} \approx 27.505 \text{ V}^{-1}$$
 Using a standard thermal voltage at $27^{\circ}\text{C}$ ($V_{thermal} \approx 25.86 \text{ mV}$):
 $$\eta = \frac{1}{27.505 \times 0.02586}$$
 $$\eta \approx \mathbf{1.406}$$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/2_e_sub_threshold.png}
+    \caption{Subthreshold Region Marked on $I_D$ vs. $V_{GS}$ Plots}
+\end{figure}
 \section*{Question 3}
 
-\subsection*{a}
+Finding unity current gain frequency $f_T$ of the technology node.
 
-Theoretically, $f_T \approx \frac{g_m}{2\pi(C_{gs} + C_{gd})}$. As technology scales from 180nm to 130nm, capacitances decrease significantly, and $f_T$ increases. You should expect the 130nm node to have a much higher $f_T$ than the 180nm nodes.
+\begin{enumerate}[label=(\alph*)]
+    \item Using minimum size NMOS, find the $f_T$ (unity current gain frequency, where $|i_d/i_g| = 1$) for the 180~nm TSMC, 180~nm SCL, and 130~nm IBM technologies. You are expected to show the method, plots, and your explanation.
+    \item Suggest a method to compare the intrinsic gains $(g_m r_o)$ of minimum size transistors for the three model files given to you. Show the schematic, netlist, simulation results, and necessary discussions.
+\end{enumerate}
 
+\textit{Hint: Useful commands:}  
+\verb|lib 'tsl85_scl.lib' tt_18|,  
+\verb|include TSMC_180nm.txt|,  
+\verb|include IBM130nm.txt|,  
+\verb|use nmos4 and edmin model name as n18|,  
+\verb|CMOSN130, CMOSN180, ADSP/PSPD|,  
+and substitute in MOS parameters.
+
+\section*{Solution:}
+\subsection*{(a) Unity Current Gain Frequency ($f_T$) Comparison}
+
+Theoretically, $f_T \approx \frac{g_m}{2\pi(C_{gs} + C_{gd})}$. As technology scales from 180nm to 130nm, capacitances decrease significantly, and $f_T$ increases. The simulation data even shows that 130nm node shas a much higher $f_T$ than the 180nm nodes.
+
+\begin{table}[H]
+    \centering
+    \caption{Comparison of Unity Current Gain Frequency ($f_T$) for Minimum Size NMOS across Technology Nodes ($V_{GS} = 1.2\text{V}$, $V_{DS} = 1.8\text{V}$)}
+    \begin{tabular}{|l|c|c|}
+        \hline
+        \textbf{Technology Node} & \textbf{Feature Size ($L_{min}$)} & \textbf{Extracted $f_T$ (GHz)} \\ \hline
+        SCL 180nm (Real PDK)                & 180 nm                            & 64.90                          \\ \hline
+        TSMC 180nm (Spice model)               & 180 nm                            & 43.26                          \\ \hline
+        IBM 130nm (Spice model)                & 130 nm                            & 51.54                          \\ \hline
+    \end{tabular}
+\end{table}
+
+\textbf{Note:} \\
+All reported frequencies were extracted at a gate-source voltage ($V_{GS}$) of $1.2\,\text{V}$ to ensure the devices are biased in the strong inversion saturation region.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/3_a_1.png}
@@ -274,62 +273,115 @@ Theoretically, $f_T \approx \frac{g_m}{2\pi(C_{gs} + C_{gd})}$. As technology sc
     \caption{Plot of Gain vs. Frequency for IBM130nm technology node}
 \end{figure}
 
-\begin{table}[H]
-    \centering
-    \caption{Comparison of Unity Current Gain Frequency ($f_T$) for Minimum Size NMOS across Technology Nodes ($V_{GS} = 1.2\text{V}$, $V_{DS} = 1.8\text{V}$)}
-    \begin{tabular}{|l|c|c|}
-        \hline
-        \textbf{Technology Node} & \textbf{Feature Size ($L_{min}$)} & \textbf{Extracted $f_T$ (GHz)} \\ \hline
-        SCL 180nm                & 180 nm                            & 64.90                          \\ \hline
-        TSMC 180nm               & 180 nm                            & 43.26                          \\ \hline
-        IBM 130nm                & 130 nm                            & 51.54                          \\ \hline
-    \end{tabular}
-\end{table}
-
-\textbf{Note:} \\
-All reported frequencies were extracted at a gate-source voltage ($V_{GS}$) of $1.2\,\text{V}$ to ensure the devices are biased in the strong inversion saturation region, thereby capturing high-frequency performance metrics.
-
-
-The transition frequency is fundamentally governed by the ratio of the transconductance to the total input capacitance:
-\begin{equation*}
-    f_T \approx \frac{g_m}{2\pi (C_{gs} + C_{gd})}
-\end{equation*}
-
 \textbf{SCL 180nm vs. TSMC 180nm} \\
-Even though both technologies share the same $180\,\text{nm}$ feature size, the SCL $180\,\text{nm}$ ($64.9\,\text{GHz}$) significantly outperforms the TSMC $180\,\text{nm}$ ($43.26\,\text{GHz}$). This discrepancy is likely due to differences in the process parameters provided in their respective library files. SCL may have a thinner gate oxide ($t_{ox}$), leading to a higher $C_{ox}$ and thus higher $g_m$ for the same bias. Additionally, lower parasitic overlap capacitances in the SCL model would lead to a higher $f_T$.
+Even though both technologies share the same $180\,\text{nm}$ feature size, the SCL $180\,\text{nm}$ ($64.9\,\text{GHz}$) significantly outperforms the TSMC $180\,\text{nm}$ ($43.26\,\text{GHz}$). This discrepancy is likely due to differences in the process parameters provided in their respective library files. SCL is a real PDK file whereas TSMC is a spice model file. 
 
-\textbf{IBM 130nm vs. 180nm Nodes} \\
-One might expect the $130\,\text{nm}$ node to have the highest $f_T$ due to the smaller channel length ($L$). In theory, $f_T$ scales with $1/L^2$. However, your data shows SCL $180\,\text{nm} >$ IBM $130\,\text{nm}$.
+\textbf{Scaling Trend (180nm vs. 130nm)} \\
+Theoretically, the transition frequency $f_T$ is given by:
+$$f_T \approx \frac{g_m}{2\pi C_{gs}} \approx \frac{\mu_n C_{ox} \frac{W}{L} (V_{GS}-V_T)}{2\pi \cdot \frac{2}{3} W L C_{ox}} \propto \frac{\mu_n (V_{GS}-V_T)}{L^2}$$
+As the channel length $L$ scales down from 180nm to 130nm, $f_T$ is expected to increase significantly due to the $1/L^2$ dependence. The carriers cross the channel faster, resulting in higher operating speeds. The general trend in semiconductor scaling dictates that smaller nodes (like 130nm) inherently offer higher intrinsic speed capabilities ($f_T$) compared to larger nodes (like 180nm), provided the device is not limited by velocity saturation or excessive parasitic capacitances.
 
-\textit{Velocity Saturation:} In the $130\,\text{nm}$ node, carriers reach velocity saturation much earlier. Once velocity is saturated, $g_m$ no longer increases linearly with decreasing $L$, causing $f_T$ to scale more like $1/L$ rather than $1/L^2$.
+\subsection*{(b) Intrinsic Gain ($g_m r_o$) Comparison Methodology}
 
-\textit{Parasitic Dominance:} At $130\,\text{nm}$, parasitic capacitances (like fringe and overlap capacitances) become a much larger fraction of the total gate capacitance compared to the intrinsic channel capacitance, which can dampen the expected speed gains from scaling.
+To compare the intrinsic gains ($g_m r_o$), I employed a simulation method using an ideal current source load.
 
-\subsection*{b}
+\textbf{Methodology:}
+I biased the NMOS transistor in the saturation region using an ideal DC current source connected to the drain. The value of this current ($I_{DS}$) was chosen based on the $I_D$ vs. $V_{DS}$ characteristics to ensure saturation.
 
-Scaling vs. Gain: You will likely observe that the 130nm node has the lowest intrinsic gain. This is because as $L$ decreases, the Channel Length Modulation ($\lambda$) effect becomes more severe, increasing $g_{ds}$ (lowering $r_o$) and killing the gain.
+Since an ideal current source has infinite small-signal impedance ($r_{oc} \to \infty$), the effective load seen at the drain is solely the output resistance of the transistor ($r_o$).
 
-TSMC vs. SCL: Even though both are 180nm, they will have different doping profiles and oxide thicknesses. The one with the lower $g_{ds}$ (higher $r_o$) is "better" for high-gain analog design.
+\textbf{Mathematical Justification:}
+The small-signal voltage gain of a common-source amplifier is:
+$$ |A_v| = g_m (r_o || r_{oc}) $$
+With $r_{oc} \to \infty$, the equation simplifies to:
+$$ |A_v| = g_m r_o $$
+Thus, the AC gain magnitude obtained from the simulation corresponds directly to the intrinsic gain of the transistor.
 
-Hand Calculation Model: In simple models, we use $A_v = \frac{2}{\lambda (V_{GS}-V_T)}$. This suggests that to maximize gain in any node, you should use lower overdrive voltages and longer channel lengths.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_scl_iv.png}
+    \caption{$I_D$ vs. $V_{DS}$ for SCL180nm technology node at $V_{DS} = 1.2V \& V_{GS} = 1.2V$}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_scl_gain.png}
+    \caption{Intrinsic Gain ($g_m r_o$) for SCL180nm technology node at Midband Frequency 1MHz}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_tsmc_iv.png}
+    \caption{$I_D$ vs. $V_{DS}$ for TSMC180nm technology node at $V_{DS} = 1.2V \& V_{GS} = 1.2V$}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_tsmc_gain.png}
+    \caption{Intrinsic Gain ($g_m r_o$) for TSMC180nm technology node at Midband Frequency 1MHz}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_ibm_iv.png}
+    \caption{$I_D$ vs. $V_{DS}$ for IBM130nm technology node at $V_{DS} = 1.2V \& V_{GS} = 1.2V$}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/3_b_ibm.png}
+    \caption{Intrinsic Gain ($g_m r_o$) for IBM130nm technology node at Midband Frequency 1MHz}
+\end{figure}
 
 \section*{Question 4}
+Using TSMC model file, draw a circuit for an analog amplifier using complementary NMOS ($5\,\mu\text{m}/1\,\mu\text{m}$) and PMOS ($10\,\mu\text{m}/1\,\mu\text{m}$) configuration discussed in class. Use only one DC source $V_{DD} = 1.8~\text{V}$ and generate other voltages using resistive dividers.
 
-Cascading Two Stages
+\noindent
+From simulations, find the DC bias point and maximum input amplitude ($A_{\text{max}}$) for maximum gain and THD $< 10\%$. Report the bias point and the maximum gain.
+\noindent
+How will you cascade two such amplifiers? Show the schematic with the exact schematic and simulation results (gain and THD) for the cascaded amplifier at $A_{\text{max}}$.
 
-When cascading, you cannot connect the output of Stage 1 directly to the gate of Stage 2 because their DC levels might conflict. You must use AC Coupling.
+\section*{Solution:}
+DC bias point
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_bias.png}
+    \caption{Biasing Circuit for Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
+\end{figure}
 
-Cascaded Schematic:
-Stage 1: Identical to the first circuit.
-Interstage Coupling: Connect a capacitor ($C_{cascade}$) from the output of Stage 1 to the gate of Stage 2.
-Stage 2 Biasing: Stage 2 needs its own resistive divider to set its gate to $0.9V$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_max_gain.png}
+    \caption{AC Small Signal Gain for Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
+\end{figure}
 
-Expected Cascaded Results:
-Total Gain: $A_{total} = A_{v1} \times A_{v2}$. If one stage gives $-30$, the cascade should give roughly $+900$ V/V (Note the phase becomes positive).
-THD for $A_{max}$: Because the gain is now much higher, the $A_{max}$ you found for a single stage will cause massive clipping in the second stage.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_matched_max_gain.png}
+    \caption{Maximum Input Amplitude for Maximum Gain Point for Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
+\end{figure}
 
-Observation: You will find that for the two-stage amplifier, the new $A_{max}$ is significantly smaller (often in the micro-volt range) to keep the second stage from saturating and keeping THD < 10%.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_max_THD.png}
+    \caption{Maximum Input Amplitude for THD $< 10\%$ in Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_cascode.png}
+    \caption{Maximum input amplitude for Maximum gain for Cascaded Two Stage CMOS Amplifier Schematic in TSMC 180nm Technology Node}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_cascode_bode.png}
+    \caption{AC Small Signal Gain for Cascaded Two Stage CMOS Amplifier in TSMC 180nm Technology Node}    
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{images/4_cascode_max_THD.png}
+    \caption{Maximum Input Amplitude for THD $< 10\%$ in Cascaded Two Stage CMOS Amplifier in TSMC 180nm Technology Node}
+\end{figure}
 \end{document}

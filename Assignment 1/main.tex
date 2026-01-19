@@ -308,7 +308,7 @@ To normalize the comparison, each transistor was biased in the saturation region
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/3_b_scl_gain.png}
-    \caption{Intrinsic Gain ($g_m r_o$) for SCL180nm technology node at Midband Frequency 1MHz}
+    \caption{Intrinsic Gain ($g_m r_o$) for SCL180nm technology node at Midband Frequency 1GHz}
 \end{figure}
 
 \begin{figure}[H]
@@ -320,7 +320,7 @@ To normalize the comparison, each transistor was biased in the saturation region
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/3_b_tsmc_gain.png}
-    \caption{Intrinsic Gain ($g_m r_o$) for TSMC180nm technology node at Midband Frequency 1MHz}
+    \caption{Intrinsic Gain ($g_m r_o$) for TSMC180nm technology node at Midband Frequency 1GHz}
 \end{figure}
 
 \begin{figure}[H]
@@ -331,8 +331,8 @@ To normalize the comparison, each transistor was biased in the saturation region
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1\textwidth]{images/3_b_ibm.png}
-    \caption{Intrinsic Gain ($g_m r_o$) for IBM130nm technology node at Midband Frequency 1MHz}
+    \includegraphics[width=1\textwidth]{images/3_b_ibm_gain.png}
+    \caption{Intrinsic Gain ($g_m r_o$) for IBM130nm technology node at Midband Frequency 1GHz}
 \end{figure}
 
 \begin{table}[H]
@@ -345,12 +345,17 @@ To normalize the comparison, each transistor was biased in the saturation region
 \hline
 SCL 180\,nm  & 180\,nm & 0.45\,$\mu$m & 116.44\,$\mu$A & 25.99 & $\approx 19.93$ \\
 TSMC 180\,nm & 180\,nm & 0.45\,$\mu$m & 147.75\,$\mu$A & 18.77 & $\approx 8.68$ \\
-IBM 130\,nm  & 130\,nm & 0.325\,$\mu$m & 209.93\,$\mu$A & -1.67 & $\approx 0.82$ \\
+IBM 130\,nm  & 130\,nm & 0.325\,$\mu$m & 125.69\,$\mu$A & 16.22 & $\approx 6.47$ \\
 \hline
 \end{tabular}%
 }
 \label{tab:intrinsic_gain_comparison}
 \end{table}
+
+Clearly, we can see that as the technology node decreases the intrinsic gain also decreases. This is primarily due to the increased short-channel effects and reduced output resistance ($r_o$) in smaller geometries, which negatively impact the intrinsic gain despite improvements in transconductance ($g_m$). Due to the reduction in parasitic capacitances, the transition frequency ($f_T$) improves with scaling, but the intrinsic gain ($g_m r_o$) tends to decrease.
+
+We have proved the above statement with the simulation results shown above.
+
 
 \section*{Question 4}
 Using TSMC model file, draw a circuit for an analog amplifier using complementary NMOS ($5\,\mu\text{m}/1\,\mu\text{m}$) and PMOS ($10\,\mu\text{m}/1\,\mu\text{m}$) configuration discussed in class. Use only one DC source $V_{DD} = 1.8~\text{V}$ and generate other voltages using resistive dividers.

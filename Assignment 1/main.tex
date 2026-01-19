@@ -297,6 +297,8 @@ With $r_{oc} \to \infty$, the equation simplifies to:
 $$ |A_v| = g_m r_o $$
 Thus, the AC gain magnitude obtained from the simulation corresponds directly to the intrinsic gain of the transistor.
 
+To normalize the comparison, each transistor was biased in the saturation region with $V_{DS} = 1.2\text{V}$ and $V_{GS} = 1.2\text{V}$. The gains were extracted at a frequency of 1 GHz to capture the intrinsic performance.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/3_b_scl_iv.png}
@@ -333,6 +335,23 @@ Thus, the AC gain magnitude obtained from the simulation corresponds directly to
     \caption{Intrinsic Gain ($g_m r_o$) for IBM130nm technology node at Midband Frequency 1MHz}
 \end{figure}
 
+\begin{table}[H]
+\centering
+\caption{Intrinsic Gain Comparison Across Technology Nodes}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Technology Node} & \textbf{$L_{\min}$} & \textbf{$W$ used} & \textbf{Bias Current ($I_D$)} & \textbf{Intrinsic Gain (dB)} & \textbf{Intrinsic Gain (V/V)} \\
+\hline
+SCL 180\,nm  & 180\,nm & 0.45\,$\mu$m & 116.44\,$\mu$A & 25.99 & $\approx 19.93$ \\
+TSMC 180\,nm & 180\,nm & 0.45\,$\mu$m & 147.75\,$\mu$A & 18.77 & $\approx 8.68$ \\
+IBM 130\,nm  & 130\,nm & 0.325\,$\mu$m & 209.93\,$\mu$A & -1.67 & $\approx 0.82$ \\
+\hline
+\end{tabular}%
+}
+\label{tab:intrinsic_gain_comparison}
+\end{table}
+
 \section*{Question 4}
 Using TSMC model file, draw a circuit for an analog amplifier using complementary NMOS ($5\,\mu\text{m}/1\,\mu\text{m}$) and PMOS ($10\,\mu\text{m}/1\,\mu\text{m}$) configuration discussed in class. Use only one DC source $V_{DD} = 1.8~\text{V}$ and generate other voltages using resistive dividers.
 
@@ -342,19 +361,20 @@ From simulations, find the DC bias point and maximum input amplitude ($A_{\text{
 How will you cascade two such amplifiers? Show the schematic with the exact schematic and simulation results (gain and THD) for the cascaded amplifier at $A_{\text{max}}$.
 
 \section*{Solution:}
-DC bias point
+The amplifier was designed using a complementary NMOS ($5\mu\text{m}/1\mu\text{m}$) and PMOS ($10\mu\text{m}/1\mu\text{m}$) configuration under a $1.8\text{V}$ supply. To determine the optimal bias point, a DC sweep of $V_{GS}$ was performed, and the derivative of the transfer characteristic ($dV_{out}/dV_{in}$) was analyzed to identify the region of maximum slope. The peak gain was found at an input bias of approximately $811.65\text{mV}$. This was implemented using a resistive divider with $R_3 = 16.2\text{k}\Omega$ and $R_4 = 13.3\text{k}\Omega$
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/4_bias.png}
     \caption{Biasing Circuit for Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
 \end{figure}
-
+ The single-stage configuration achieved a maximum small-signal gain of $20.54\text{dB}$ ($\approx 10.64\text{V/V}$) at $1\text{kHz}$.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/4_max_gain.png}
     \caption{AC Small Signal Gain for Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
 \end{figure}
-
+Transient analysis showed that for a $10\text{mV}$ input sine wave, the Total Harmonic Distortion (THD) remained low at $0.37\%$. The maximum input amplitude ($A_{max}$) for a single stage was identified as $90\text{mV}$, yielding a THD of $9.97\%$, effectively meeting the $<10\%$ requirement.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/4_matched_max_gain.png}
@@ -366,7 +386,7 @@ DC bias point
     \includegraphics[width=1\textwidth]{images/4_max_THD.png}
     \caption{Maximum Input Amplitude for THD $< 10\%$ in Single Stage CMOS Amplifier in TSMC 180nm Technology Node}
 \end{figure}
-
+Two identical stages were cascaded using a $1\mu\text{F}$ AC coupling capacitor to ensure DC isolation between stages while allowing the signal to pass. To mitigate the loading effect—where the second stage's input impedance reduces the gain of the first stage—the resistive divider values were scaled by a factor of 10 to $162\text{k}\Omega$ and $133\text{k}\Omega$. This increased the input impedance of the second stage to approximately $73\text{k}\Omega$, preserving the overall gain.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{images/4_cascode.png}
@@ -384,4 +404,23 @@ DC bias point
     \includegraphics[width=1\textwidth]{images/4_cascode_max_THD.png}
     \caption{Maximum Input Amplitude for THD $< 10\%$ in Cascaded Two Stage CMOS Amplifier in TSMC 180nm Technology Node}
 \end{figure}
+The cascaded system provided a significantly higher gain of $39.56\text{dB}$ ($\approx 95\text{V/V}$). However, it was observed that the $90\text{mV}$ input signal ($A_{max}$ of a single stage) caused severe output clipping in the cascaded setup, resulting in a THD of $36.76\%$. Consequently, for the cascaded amplifier to operate within the $10\%$ THD limit, the input amplitude must be scaled down to accommodate the increased gain.
+
+\begin{table}[H]
+\centering
+\caption{Performance Comparison at Different Input Amplitudes}
+\label{tab:input_comparison}
+\begin{tabular}{|l|c|c|}
+\hline
+\textbf{Parameter} & \textbf{Value at 10\,mV Input} & \textbf{Value at 90\,mV Input} \\
+\hline
+Output Swing & Unclipped (approx.\ 1.32\,V\textsubscript{pp}) & Severely Clipped (1.8\,V flat peaks) \\
+\hline
+Total Harmonic Distortion & 9.68\% (Success) & 36.76\% (Fail) \\
+\hline
+Cascaded Gain & 39.56\,dB & N/A (Non-linear due to clipping) \\
+\hline
+\end{tabular}
+\end{table}
+
 \end{document}

@@ -1,0 +1,166 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{caption}
+
+% --- Document Information ---
+\title{Analog IC Design: Assignment-2 \\ \large Spring 2026, IIIT Hyderabad}
+\author{Name: \underline{\hspace{5cm}} \quad Roll No: \underline{\hspace{3cm}}}
+\date{Due Date: February 23, 2026 (18:00 hrs)}
+
+\begin{document}
+
+\maketitle
+
+\section*{Instructions}
+\begin{itemize}
+    \item Technology: 180 nm SCL technology file.
+    \item Content: Schematics, netlists, annotated waveforms, and inference/discussion are required for each solution.
+\end{itemize}
+
+\noindent\rule{\textwidth}{0.4pt}
+
+% --- Question 1 ---
+\section*{Question 1: n-channel MOSFET Characteristics}
+Considering $V_{DS} = 1\text{V}$ and $\frac{W}{L} = \frac{500\text{n}}{180\text{n}}$:
+
+\subsection*{(a) $I_D$ vs $V_{GS}$ and $g_m$ vs $V_{GS}$ Plots}
+\textbf{Cases:} (i) $V_{SB} = 0\text{V}$, (ii) $V_{SB} = 0.9\text{V}$, (iii) $V_{SB} = -0.9\text{V}$.
+
+\subsubsection*{Schematic and Simulation Setup}
+% Insert Schematic description/image here
+[Insert Schematic Here]
+
+\subsubsection*{Simulation Results (Plots)}
+% Insert Plots here
+[Insert super-imposed $I_D$ vs $V_{GS}$ plot here]
+[Insert super-imposed $g_m$ vs $V_{GS}$ plot here]
+
+\subsubsection*{Discussion}
+% Briefly discuss variations, causes, and analytical match.
+\textit{Discussion:} 
+
+\subsection*{(b) Reference Current $I_{D0}$}
+For $V_{SB} = 0\text{V}$ and $V_{GS} = 0.9\text{V}$:
+\begin{itemize}
+    \item $I_{D0} = $ \underline{\hspace{3cm}}
+\end{itemize}
+
+\subsection*{(c) $g_m$ Variation for $V_{GS} = 0.9\text{V}$}
+% Report variation considering VSB=0 as reference
+\begin{itemize}
+    \item Case $V_{SB} = 0.9\text{V}$: Variation = 
+    \item Case $V_{SB} = -0.9\text{V}$: Variation = 
+\end{itemize}
+
+\subsection*{(d) $g_m$ Variation for $I_D = I_{D0}$}
+% Report variation considering VSB=0 as reference
+\begin{itemize}
+    \item Case $V_{SB} = 0.9\text{V}$: Variation = 
+    \item Case $V_{SB} = -0.9\text{V}$: Variation = 
+\end{itemize}
+
+\newpage
+
+% --- Question 2 ---
+\section*{Question 2: Transconductance Analysis}
+Using the circuit in Figure 1 with $V_{DD} = 1.8\text{V}$.
+
+\subsection*{(a) $g_m$ vs $I_D$ Curve}
+Sweep $I_D$ from $10\,\mu\text{A}$ to $1\text{mA}$ for:
+1. $(W/L) = \frac{3\,\mu\text{m}}{1\,\mu\text{m}}$
+2. $(W/L) = \frac{0.45\,\mu\text{m}}{0.18\,\mu\text{m}}$
+
+[Insert super-imposed $g_m$ vs $I_D$ plot here]
+
+\textbf{Inference:} Which case is closer to the expected form $g_m = \frac{2I_D}{V_{GS}-V_T}$ and why?
+
+\subsection*{(b) Max Transconductance and Saturation}
+\begin{itemize}
+    \item $g_{m,max}$ observed: \underline{\hspace{2cm}}
+    \item $I_D$ at which $g_m$ saturates: \underline{\hspace{2cm}}
+    \item $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$: \underline{\hspace{2cm}}
+\end{itemize}
+
+\subsection*{(c) Scaling Parameters}
+To obtain $g_{m,req} = 4 \times g_{m,use}$ while ensuring the same speed:
+% Show scaling logic here
+
+\newpage
+
+% --- Question 3 ---
+\section*{Question 3: CS Amplifier Design ($g_m/I_D$ Approach)}
+\textbf{Specifications:} $A_v > 60$, $f_u = 100\text{MHz}$, $C_L = 1\text{pF}$, $V_{DD} = 1.8\text{V}$, $V^* = \frac{2I_D}{g_m} = 200\text{mV}$.
+
+\subsection*{(a) Channel Length Selection}
+[Insert plot of $g_m r_o$ vs $V_{DS}$ for different $L$]
+\textbf{Chosen $L$:} \underline{\hspace{2cm}}
+\textbf{Output Swing Range:} \underline{\hspace{3cm}}
+
+\subsection*{(b) Process and Temperature Variations}
+[Insert $g_m r_o$ vs $V_{DS}$ plot for corners: tt, ff, ss and temps: -40, 25, 80, 125 $^\circ$C]
+
+\subsection*{(c) Design Calculations}
+\begin{itemize}
+    \item Calculated $g_m$:
+    \item Calculated $I_D$:
+    \item Calculated $W$:
+\end{itemize}
+
+\subsection*{(d) Transient Analysis and THD}
+[Insert annotated transient plots]
+\textbf{THD for maximum input swing:} \underline{\hspace{2cm}}
+
+\subsection*{(e) AC Analysis}
+[Insert AC Response plots]
+\begin{itemize}
+    \item Verified $f_u$:
+    \item $f_{-3dB}$:
+    \item AC Gain:
+\end{itemize}
+
+\newpage
+
+% --- Question 4 ---
+\section*{Question 4: Common Source Amplifier Variants}
+$R_L = 10\text{k}\Omega$, $V_{DD} = 1.8\text{V}$, $A_v > 5$, Overdrive $= 200\text{mV}$, $f_{min} = 100\text{Hz}$.
+
+\subsection*{(a) Design Procedure (Resistive Load)}
+% Show calculations for M1, M2, I_REF, C_b, R_b
+\textbf{Total Power Consumption:} \underline{\hspace{2cm}}
+
+\subsection*{(b) Transient Simulation}
+[Insert transient plots for $v_{in} = 10\sin(2\pi \cdot 1000t)\text{mV}$]
+
+\subsection*{(c) AC Response}
+[Insert AC plots $1\text{Hz}$ to $1\text{GHz}$]
+\textbf{Unity Bandwidth $f_u$:} \underline{\hspace{2cm}}
+
+\subsection*{(d) PMOS Current Source Load}
+[Insert design procedure, Transient, and AC plots for $A_v > 15$]
+
+\subsection*{(e) Cascode Amplifier Design}
+[Insert design procedure, Transient, and AC plots]
+\textbf{Observed Gain:} \underline{\hspace{2cm}}
+\textbf{Comparison with Hand Calculations:}
+
+\subsection*{(f) Comparison Table}
+\begin{table}[H]
+\centering
+\caption{Comparison of Amplifier Topologies}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+\textbf{Topology} & \textbf{Gain} & \textbf{Power} & \textbf{Output Swing} & \textbf{Remarks} \\ \midrule
+Resistive Load    &               &                &                       &                  \\
+PMOS Load         &               &                &                       &                  \\
+Cascode           &               &                &                       &                  \\ \bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}

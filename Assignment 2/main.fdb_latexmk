@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1770908567.06999 "c:/Users/madha/Desktop/AIC/Assignment 2/main.tex" "main.pdf" "main" 1770908567.85313 0
+["pdflatex"] 1771440782.65372 "c:/Users/madha/Desktop/AIC/Assignment 2/main.tex" "main.pdf" "main" 1771440784.78782 0
   "C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1770908554 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/madha/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1095.pk" 1770908485 12668 5cf5a9f4e914c6a334e83abfd4860bc0 ""
   "C:/Users/madha/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1750241735 13234938 b9853041d81395da99f3b6b79c6b0a04 ""
@@ -100,9 +100,18 @@
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/madha/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/madha/Desktop/AIC/Assignment 2/main.tex" 1770908566 5803 97b9695ddb73a0a5b3f3f38d9abd4b06 ""
-  "main.aux" 1770908567 345 e4fb0a45851c4c93644cb3f074d34ffb "pdflatex"
-  "main.tex" 1770908566 5803 97b9695ddb73a0a5b3f3f38d9abd4b06 ""
+  "c:/Users/madha/Desktop/AIC/Assignment 2/main.tex" 1771440779 7403 955be4b8da9ee6572cc12d7a9aa31c7b ""
+  "images/q1_a_1.png" 1771435997 48634 496f63b904a44bb0fe323e12094f7e4e ""
+  "images/q1_a_2.png" 1771436258 58084 9c71d1b84f7de4ff25967970af4d52e7 ""
+  "images/q1_a_3.png" 1771436394 59655 f01927a0545a3e7f5848bb5bc745b677 ""
+  "images/q1_b_1.png" 1771437318 68132 b5a0bc4104dd5436a263009f1fd3fb45 ""
+  "images/q1_b_2.png" 1771438878 73556 80f47a3ca2c753ae1636df32b3aedfbc ""
+  "images/q1_c_1.png" 1771439114 102977 5b3b43cbcfed6891e2a1bd98640777cd ""
+  "images/q1_c_2.png" 1771439183 98147 87c450977998bd3ce1108409579140b0 ""
+  "images/q1_d_1.png" 1771439652 103718 d3f3b26ba258b837dbe027e60f45fd34 ""
+  "images/q1_d_2.png" 1771439860 80727 342bde8451044fa70da757fc4f597f3f ""
+  "main.aux" 1771440784 2018 d1c06e705414115ef407ceec6b621122 "pdflatex"
+  "main.tex" 1771440779 7403 955be4b8da9ee6572cc12d7a9aa31c7b ""
   (generated)
   "main.aux"
   "main.log"

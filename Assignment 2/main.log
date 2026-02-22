@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  19 FEB 2026 00:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.6.18)  22 FEB 2026 04:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -383,88 +383,138 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images/q1_a_1.png, id=3, 1444.64719pt x 812.28468pt>
 File: images/q1_a_1.png Graphic file (type png)
 <use images/q1_a_1.png>
-Package pdftex.def Info: images/q1_a_1.png  used on input line 40.
+Package pdftex.def Info: images/q1_a_1.png  used on input line 34.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 <images/q1_a_2.png, id=5, 1443.89438pt x 812.28468pt>
 File: images/q1_a_2.png Graphic file (type png)
 <use images/q1_a_2.png>
-Package pdftex.def Info: images/q1_a_2.png  used on input line 48.
+Package pdftex.def Info: images/q1_a_2.png  used on input line 42.
 (pdftex.def)             Requested size: 375.80544pt x 211.41214pt.
 
 
 [1
 
 {C:/Users/madha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./images/q1_a_1.png>]
-<images/q1_a_3.png, id=28, 1444.64719pt x 812.28468pt>
+<images/q1_a_3.png, id=26, 1444.64719pt x 812.28468pt>
 File: images/q1_a_3.png Graphic file (type png)
 <use images/q1_a_3.png>
-Package pdftex.def Info: images/q1_a_3.png  used on input line 54.
+Package pdftex.def Info: images/q1_a_3.png  used on input line 48.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
 
 [2 <./images/q1_a_2.png> <./images/q1_a_3.png>]
-<images/q1_b_1.png, id=41, 1444.64719pt x 812.28468pt>
+<images/q1_b_1.png, id=40, 1444.64719pt x 812.28468pt>
 File: images/q1_b_1.png Graphic file (type png)
 <use images/q1_b_1.png>
-Package pdftex.def Info: images/q1_b_1.png  used on input line 71.
+Package pdftex.def Info: images/q1_b_1.png  used on input line 65.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
-<images/q1_b_2.png, id=42, 1444.64719pt x 812.28468pt>
+<images/q1_b_2.png, id=41, 1444.64719pt x 812.28468pt>
 File: images/q1_b_2.png Graphic file (type png)
 <use images/q1_b_2.png>
-Package pdftex.def Info: images/q1_b_2.png  used on input line 77.
+Package pdftex.def Info: images/q1_b_2.png  used on input line 71.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
-<images/q1_c_1.png, id=43, 1444.64719pt x 812.28468pt>
+<images/q1_c_1.png, id=42, 1444.64719pt x 812.28468pt>
 File: images/q1_c_1.png Graphic file (type png)
 <use images/q1_c_1.png>
-Package pdftex.def Info: images/q1_c_1.png  used on input line 90.
+Package pdftex.def Info: images/q1_c_1.png  used on input line 84.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
 
 [3 <./images/q1_b_1.png> <./images/q1_b_2.png>]
-<images/q1_c_2.png, id=53, 1444.64719pt x 812.28468pt>
+<images/q1_c_2.png, id=52, 1444.64719pt x 812.28468pt>
 File: images/q1_c_2.png Graphic file (type png)
 <use images/q1_c_2.png>
-Package pdftex.def Info: images/q1_c_2.png  used on input line 96.
+Package pdftex.def Info: images/q1_c_2.png  used on input line 90.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
-<images/q1_d_1.png, id=54, 1444.64719pt x 812.28468pt>
+<images/q1_d_1.png, id=53, 1444.64719pt x 812.28468pt>
 File: images/q1_d_1.png Graphic file (type png)
 <use images/q1_d_1.png>
-Package pdftex.def Info: images/q1_d_1.png  used on input line 109.
+Package pdftex.def Info: images/q1_d_1.png  used on input line 103.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
 
 [4 <./images/q1_c_1.png> <./images/q1_c_2.png>]
-<images/q1_d_2.png, id=64, 1444.64719pt x 812.28468pt>
+<images/q1_d_2.png, id=63, 1444.64719pt x 812.28468pt>
 File: images/q1_d_2.png Graphic file (type png)
 <use images/q1_d_2.png>
-Package pdftex.def Info: images/q1_d_2.png  used on input line 115.
+Package pdftex.def Info: images/q1_d_2.png  used on input line 109.
 (pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
 
 [5 <./images/q1_d_1.png> <./images/q1_d_2.png>]
+<images/q2_a_1.png, id=72, 1444.64719pt x 812.28468pt>
+File: images/q2_a_1.png Graphic file (type png)
+<use images/q2_a_1.png>
+Package pdftex.def Info: images/q2_a_1.png  used on input line 126.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
+<images/q2_a_2.png, id=73, 1444.64719pt x 812.28468pt>
+File: images/q2_a_2.png Graphic file (type png)
+<use images/q2_a_2.png>
+Package pdftex.def Info: images/q2_a_2.png  used on input line 132.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
+<images/q2_b_1.png, id=74, 1444.64719pt x 812.28468pt>
+File: images/q2_b_1.png Graphic file (type png)
+<use images/q2_b_1.png>
+Package pdftex.def Info: images/q2_b_1.png  used on input line 141.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
-[6]
 
-[7]
+[6 <./images/q2_a_1.png> <./images/q2_a_2.png>]
+<images/q2_b_2.png, id=87, 1440.88312pt x 812.28468pt>
+File: images/q2_b_2.png Graphic file (type png)
+<use images/q2_b_2.png>
+Package pdftex.def Info: images/q2_b_2.png  used on input line 147.
+(pdftex.def)             Requested size: 375.80544pt x 211.84593pt.
+<images/q2_b_3.png, id=88, 1444.64719pt x 812.28468pt>
+File: images/q2_b_3.png Graphic file (type png)
+<use images/q2_b_3.png>
+Package pdftex.def Info: images/q2_b_3.png  used on input line 153.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
 
-[8] (main.aux)
+
+[7 <./images/q2_b_1.png> <./images/q2_b_2.png>]
+<images/q2_b_4.png, id=99, 1444.64719pt x 812.28468pt>
+File: images/q2_b_4.png Graphic file (type png)
+<use images/q2_b_4.png>
+Package pdftex.def Info: images/q2_b_4.png  used on input line 159.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
+<images/q2_b_5.png, id=100, 1444.64719pt x 812.28468pt>
+File: images/q2_b_5.png Graphic file (type png)
+<use images/q2_b_5.png>
+Package pdftex.def Info: images/q2_b_5.png  used on input line 165.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
+
+
+[8 <./images/q2_b_3.png> <./images/q2_b_4.png>]
+<images/q2_b_6.png, id=109, 1444.64719pt x 812.28468pt>
+File: images/q2_b_6.png Graphic file (type png)
+<use images/q2_b_6.png>
+Package pdftex.def Info: images/q2_b_6.png  used on input line 171.
+(pdftex.def)             Requested size: 375.80544pt x 211.30058pt.
+
+
+[9 <./images/q2_b_5.png> <./images/q2_b_6.png>]
+
+[10]
+
+[11] (main.aux)
  ***********
 LaTeX2e <2025-06-01>
 L3 programming layer <2025-05-26>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 12008 strings out of 468225
- 190456 string characters out of 5432973
- 595216 words of memory out of 5000000
- 40353 multiletter control sequences out of 15000+600000
- 638146 words of font info for 83 fonts, out of 8000000 for 9000
+ 12081 strings out of 468225
+ 192049 string characters out of 5432973
+ 593244 words of memory out of 5000000
+ 40413 multiletter control sequences out of 15000+600000
+ 638314 words of font info for 84 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,293b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on main.pdf (8 pages, 683696 bytes).
+ 75i,8n,79p,293b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\madha\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1095.pk><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/madha/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (11 pages, 1113821 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 222 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

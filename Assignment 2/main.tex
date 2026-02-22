@@ -11,18 +11,12 @@
 
 % --- Document Information ---
 \title{Analog IC Design: Assignment-2 \\ \large Spring 2026, IIIT Hyderabad}
-\author{Name: \underline{\hspace{5cm}} \quad Roll No: \underline{\hspace{3cm}}}
+\author{Name: \textbf{Chamarthy Madhan Sai Krishna} \quad Roll No: \textbf{2023102030}}
 \date{Due Date: February 23, 2026 (18:00 hrs)}
 
 \begin{document}
 
 \maketitle
-
-\section*{Instructions}
-\begin{itemize}
-    \item Technology: 180 nm SCL technology file.
-    \item Content: Schematics, netlists, annotated waveforms, and inference/discussion are required for each solution.
-\end{itemize}
 
 \noindent\rule{\textwidth}{0.4pt}
 
@@ -127,11 +121,57 @@ Sweep $I_D$ from $10\,\mu\text{A}$ to $1\text{mA}$ for:
 1. $(W/L) = \frac{3\,\mu\text{m}}{1\,\mu\text{m}}$
 2. $(W/L) = \frac{0.45\,\mu\text{m}}{0.18\,\mu\text{m}}$
 
-[Insert super-imposed $g_m$ vs $I_D$ plot here]
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_a_1.png}
+    \caption{Schematic for $g_m$ vs $I_D$ simulation for $(W/L) = 3u/1u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_a_2.png}
+    \caption{Simulated $g_m$ vs $I_D$ for $(W/L) = 0.45u/0.18u$.}
+\end{figure}
 
 \textbf{Inference:} Which case is closer to the expected form $g_m = \frac{2I_D}{V_{GS}-V_T}$ and why?
 
 \subsection*{(b) Max Transconductance and Saturation}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_1.png}
+    \caption{ $g_{m,max}$ for $(W/L) = 3u/1u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_2.png}
+    \caption{ $g_{m,max}$ for $(W/L) = 0.45u/0.18u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_3.png}
+    \caption{Saturation of $g_m$ for $(W/L) = 3u/1u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_4.png}
+    \caption{Saturation of $g_m$ for $(W/L) = 0.45u/0.18u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_5.png}
+    \caption{Determining $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$ for $(W/L) = 3u/1u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_b_6.png}
+    \caption{Determining $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$ for $(W/L) = 0.45u/0.18u$.}
+\end{figure}
+
 \begin{itemize}
     \item $g_{m,max}$ observed: \underline{\hspace{2cm}}
     \item $I_D$ at which $g_m$ saturates: \underline{\hspace{2cm}}
@@ -140,7 +180,6 @@ Sweep $I_D$ from $10\,\mu\text{A}$ to $1\text{mA}$ for:
 
 \subsection*{(c) Scaling Parameters}
 To obtain $g_{m,req} = 4 \times g_{m,use}$ while ensuring the same speed:
-% Show scaling logic here
 
 \newpage
 
@@ -212,5 +251,11 @@ PMOS Load         &               &                &                       &    
 Cascode           &               &                &                       &                  \\ \bottomrule
 \end{tabular}
 \end{table}
+
+%--- References ---
+\section*{References}
+\begin{enumerate}
+    \item Lookup table based systematic design of analog circuits (gm/Id based design) \url{https://youtu.be/8sbxbeduIoM}
+\end{enumerate}
 
 \end{document}

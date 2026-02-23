@@ -441,7 +441,7 @@
 *
 .model n18.2 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.410096 + delta_n_vth0_18' lvth0 = -2.81712e-008 wvth0 = -4.62786e-009 pvth0 = 9.5832e-015
 + k1 = 0.566269 lk1 = 2.09712e-008 wk1 = -2.97943e-008 pk1 = 5.016e-016
 + k2 = -0.0595162 lk2 = -1.29472e-008 wk2 = 1.28571e-008 pk2 = 1.65871e-015
@@ -505,7 +505,7 @@
 *
 .model n18.3 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.387165 + delta_n_vth0_18' lvth0 = -2.48902e-009 wvth0 = 4.28286e-009 pvth0 = -3.968e-016
 + k1 = 0.368742 lk1 = 2.42201e-007 wk1 = 5.07664e-008 pk1 = -8.97264e-014
 + k2 = 0.0316753 lk2 = -1.15082e-007 wk2 = -2.1718e-008 pk2 = 4.03828e-014
@@ -569,7 +569,7 @@
 *
 .model n18.4 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.49758 + delta_n_vth0_18' lvth0 = -3.33638e-008 wvth0 = -3.30589e-008 pvth0 = 5.74875e-015
 + k1 = 0.394017 lk1 = 5.43169e-008 wk1 = 4.18821e-008 pk1 = -1.01025e-014
 + k2 = -0.00480062 lk2 = -1.74399e-008 wk2 = -1.69538e-008 pk2 = 4.93538e-015
@@ -633,7 +633,7 @@
 *
 .model n18.5 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.428886 + delta_n_vth0_18' lvth0 = -4.512e-009 wvth0 = -1.40229e-008 pvth0 = -2.2464e-015
 + k1 = 0.507777 lk1 = 6.5376e-009 wk1 = -5.48571e-010 pk1 = 7.7184e-015
 + k2 = -0.0501117 lk2 = 1.59072e-009 wk2 = 8.15486e-009 pk2 = -5.61024e-015
@@ -697,7 +697,7 @@
 *
 .model n18.6 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.387593 + delta_n_vth0_18' lvth0 = 4.17361e-008 wvth0 = 4.06909e-009 pvth0 = -2.25094e-014
 + k1 = 0.584552 lk1 = -7.94502e-008 wk1 = -5.71387e-008 pk1 = 7.10993e-014
 + k2 = -0.0593683 lk2 = 1.19581e-008 wk2 = 2.38038e-008 pk2 = -2.3137e-014
@@ -761,7 +761,7 @@
 *
 .model n18.7 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.450692 + delta_n_vth0_18' lvth0 = -3.46733e-008 wvth0 = 2.32074e-008 pvth0 = 7.32017e-015
 + k1 = 0.474068 lk1 = 4.89855e-008 wk1 = -5.4179e-008 pk1 = -3.70483e-015
 + k2 = -0.0166319 lk2 = -1.95227e-008 wk2 = -2.75625e-009 pk2 = 7.43472e-015
@@ -825,7 +825,7 @@
 *
 .model n18.8 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.417882 + delta_n_vth0_18' lvth0 = -2.08931e-008 wvth0 = -8.18182e-010 pvth0 = 1.74109e-014
 + k1 = 0.548184 lk1 = 1.78569e-008 wk1 = -4.90364e-008 pk1 = -5.86473e-015
 + k2 = -0.0561705 lk2 = -2.91648e-009 wk2 = 1.54255e-008 pk2 = -2.016e-016
@@ -889,7 +889,7 @@
 *
 .model n18.9 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.377942 + delta_n_vth0_18' lvth0 = 2.38392e-008 wvth0 = 1.56496e-008 pvth0 = -1.03299e-015
 + k1 = 0.569482 lk1 = -5.99709e-009 wk1 = -3.90545e-008 pk1 = -1.70444e-014
 + k2 = -0.0501868 lk2 = -9.6183e-009 wk2 = 1.2786e-008 pk2 = 2.75464e-015
@@ -954,7 +954,7 @@
 * 
 .model p18.1 pmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.4503 + delta_p_vth0_18' lvth0 = 9.705e-009 wvth0 = 1.12406e-008 pvth0 = -1.86656e-015
 + k1 = 0.434498 lk1 = 4.78238e-008 wk1 = 8.46853e-008 pk1 = -1.17253e-014
 + k2 = 0.0578256 lk2 = -1.52753e-008 wk2 = -3.07462e-008 pk2 = 3.30052e-015
@@ -1017,7 +1017,7 @@
 *
 .model p18.2 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.370907 + delta_p_vth0_18' lvth0 = -2.364e-008 wvth0 = -1.70264e-008 pvth0 = 1.00056e-014
 + k1 = 1.01236 lk1 = -1.9488e-007 wk1 = -9.10721e-008 pk1 = 6.20928e-014
 + k2 = -0.172616 lk2 = 8.15102e-008 wk2 = 3.52361e-008 pk2 = -2.44121e-014
@@ -1080,7 +1080,7 @@
 *
 .model p18.3 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.419133 + delta_p_vth0_18' lvth0 = 3.03732e-008 wvth0 = 1.91571e-009 pvth0 = -1.12096e-014
 + k1 = 0.927644 lk1 = -9.99936e-008 wk1 = -5.05121e-008 pk1 = 1.66656e-014
 + k2 = -0.143316 lk2 = 4.86937e-008 wk2 = 2.15041e-008 pk2 = -9.03216e-015
@@ -1143,7 +1143,7 @@
 *
 .model p18.4 pmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.428708 + delta_p_vth0_18' lvth0 = 1.11694e-008 wvth0 = 4.44643e-010 pvth0 = -2.59875e-015
 + k1 = 0.688576 lk1 = 2.16281e-008 wk1 = -4.23536e-008 pk1 = 1.3725e-015
 + k2 = -0.0386994 lk2 = -7.29506e-009 wk2 = 1.75163e-008 pk2 = -6.89625e-016
@@ -1206,7 +1206,7 @@
 *
 .model p18.5 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.426389 + delta_p_vth0_18' lvth0 = 1.01952e-008 wvth0 = 1.07143e-008 pvth0 = -6.912e-015
 + k1 = 0.566631 lk1 = 7.28448e-008 wk1 = 1.31794e-007 pk1 = -7.17696e-014
 + k2 = 0.00138514 lk2 = -2.41306e-008 wk2 = -5.17646e-008 pk2 = 2.84083e-014
@@ -1269,7 +1269,7 @@
 *
 .model p18.6 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.40487 + delta_p_vth0_18' lvth0 = -1.3906e-008 wvth0 = -5.2161e-009 pvth0 = 1.093e-014
 + k1 = 0.717859 lk1 = -9.65306e-008 wk1 = 5.43803e-008 pk1 = 1.49341e-014
 + k2 = -0.0530152 lk2 = 3.67978e-008 wk2 = -2.36462e-008 pk2 = -3.08422e-015
@@ -1332,7 +1332,7 @@
 *
 .model p18.7 pmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.408387 + delta_p_vth0_18' lvth0 = 5.8269e-009 wvth0 = -2.39403e-008 pvth0 = 3.81222e-015
 + k1 = 0.698899 lk1 = 1.71192e-008 wk1 = -5.47415e-008 pk1 = 6.78324e-015
 + k2 = -0.0438809 lk2 = -7.14191e-009 wk2 = 2.37341e-008 pk2 = -8.73409e-016
@@ -1395,7 +1395,7 @@
 *
 .model p18.8 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.424528 + delta_p_vth0_18' lvth0 = 1.26061e-008 wvth0 = 8.48182e-009 pvth0 = -9.80509e-015
 + k1 = 0.692983 lk1 = 1.96041e-008 wk1 = -1.98273e-008 pk1 = -7.88073e-015
 + k2 = -0.0435793 lk2 = -7.2686e-009 wk2 = 2.19273e-009 pk2 = 8.17396e-015
@@ -1458,7 +1458,7 @@
 *
 .model p18.9 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.400278 + delta_p_vth0_18' lvth0 = -1.45537e-008 wvth0 = -1.07256e-008 pvth0 = 1.17072e-014
 + k1 = 0.695765 lk1 = 1.64877e-008 wk1 = 8.08934e-008 pk1 = -1.20688e-013
 + k2 = -0.0437881 lk2 = -7.03467e-009 wk2 = -3.47187e-008 pk2 = 4.95147e-014
@@ -1641,7 +1641,7 @@
 **
 .model n18llb3.1 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.67867 + delta_n_vth0ll' lvth0 = -7.30357e-008 wvth0 = -5.19848e-008 pvth0 = 9.2025e-015
 + k1 = -0.00603429 lk1 = 1.62602e-007 wk1 = 1.33649e-007 pk1 = -2.68001e-014
 + k2 = 0.193602 lk2 = -5.59671e-008 wk2 = -4.93528e-008 pk2 = 9.20799e-015
@@ -1704,7 +1704,7 @@
 *
 .model n18llb3.2 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 versio/direct/pdkdb/workspaces/018sl_pdk_jamesmar/data/modeling/models/TS18SL_SCL/hspicen = 3.24
++ level = 49 versio/direct/pdkdb/workspaces/018sl_pdk_jamesmar/data/modeling/models/TS18SL_SCL/hspicen = 3.2.4
 + vth0 = '0.425102 + delta_n_vth0ll' lvth0 = 4.33724e-008 wvth0 = 1.0994e-008 pvth0 = -1.97098e-014
 + k1 = 0.71691 lk1 = -1.69287e-007 wk1 = -5.0406e-008 pk1 = 5.7696e-014
 + k2 = -0.101395 lk2 = 7.94604e-008 wk2 = 2.20034e-008 pk2 = -2.35502e-014
@@ -1767,7 +1767,7 @@
 *
 .model n18llb3.3 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.462909 + delta_n_vth0ll' lvth0 = -4.49742e-010 wvth0 = -7.16668e-009 pvth0 = 1.33986e-015
 + k1 = 0.671644 lk1 = -1.1682e-007 wk1 = -1.81459e-008 pk1 = 2.0304e-014
 + k2 = -0.0629427 lk2 = 3.48906e-008 wk2 = 4.59305e-009 pk2 = -3.37025e-015
@@ -1830,7 +1830,7 @@
 *
 .model n18llb3.4 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.457456 + delta_n_vth0ll' lvth0 = -1.76724e-010 wvth0 = 5.8622e-008 pvth0 = -2.7227e-014
 + k1 = 0.65445 lk1 = 8.85048e-009 wk1 = -1.96593e-007 pk1 = 5.00757e-014
 + k2 = -0.0767687 lk2 = 1.7262e-009 wk2 = 8.58326e-008 pk2 = -1.96387e-014
@@ -1893,7 +1893,7 @@
 *
 .model n18llb3.5 nmos ( 
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.512897 + delta_n_vth0ll' lvth0 = -2.56282e-008 wvth0 = -3.29034e-008 pvth0 = 1.47905e-014
 + k1 = 0.561487 lk1 = 5.15278e-008 wk1 = 2.73056e-008 pk1 = -5.27115e-014
 + k2 = -0.0519819 lk2 = -9.65292e-009 wk2 = -2.70335e-009 pk2 = 2.10064e-014
@@ -1956,7 +1956,7 @@
 *
 .model n18llb3.6 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.45394 + delta_n_vth0ll' lvth0 = 4.27067e-008 wvth0 = -2.68213e-009 pvth0 = -2.02384e-014
 + k1 = 0.719227 lk1 = -1.31306e-007 wk1 = -4.19374e-008 pk1 = 2.75467e-014
 + k2 = -0.100234 lk2 = 4.62747e-008 wk2 = 2.32385e-008 pk2 = -9.0623e-015
@@ -2019,7 +2019,7 @@
 *
 .model n18llb3.7 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 1.2e-006 wmax = 1e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.558807 + delta_n_vth0ll' lvth0 = -5.54705e-008 wvth0 = -6.29987e-008 pvth0 = 3.91256e-014
 + k1 = 0.491304 lk1 = 7.57253e-008 wk1 = -8.18301e-010 pk1 = -3.0174e-014
 + k2 = 0.015441 lk2 = -3.125e-008 wk2 = -2.4819e-008 pk2 = 1.99328e-014
@@ -2082,7 +2082,7 @@
 *
 .model n18llb3.8 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1.2e-006 wmax = 1e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.439859 + delta_n_vth0ll' lvth0 = -8.63816e-010 wvth0 = 5.47417e-008 pvth0 = -1.49267e-014
 + k1 = 0.625396 lk1 = 1.41666e-008 wk1 = -4.9385e-008 pk1 = -7.878e-015
 + k2 = -0.0666112 lk2 = 6.4185e-009 wk2 = 1.48518e-008 pk2 = 1.72072e-015
@@ -2145,7 +2145,7 @@
 *
 .model n18llb3.9 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1.2e-006 wmax = 1.0e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.42312 + delta_n_vth0ll' lvth0 = 1.85374e-008 wvth0 = 3.43017e-008 pvth0 = 8.76485e-015
 + k1 = 0.685572 lk1 = -5.55823e-008 wk1 = -1.55091e-009 pk1 = -6.33216e-014
 + k2 = -0.0734165 lk2 = 1.43064e-008 wk2 = -8.942e-009 pk2 = 2.92996e-014
@@ -2208,11 +2208,11 @@
 *
 .model n18llb3.10 nmos (
 + lmin = 1.65e-007 lmax = 5e-007 wmin = 1e-005 wmax = 0.0001002
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.441842 + delta_n_vth0ll' lvth0 = -1.86581e-008 wvth0 = 1.10665e-006 pvth0 = -3.28999e-013
 + k1 = 0.620687 lk1 = 3.12283e-008 wk1 = -1.29465e-006 pk1 = 4.14796e-013
 + k2 = -0.0294399 lk2 = -1.4536e-008 wk2 = 4.2399e-007 pk2 = -1.47207e-013
-+ u0 = 167.256 lu0 = -3.88192e-006 wu0 = -3.24508e-005 pu0 = -4.47829e-011
++ u0 = 167.256 lu0 = -3.88192e-006 wu0 = -3.2.4508e-005 pu0 = -4.47829e-011
 + ua = '-1.39871e-009+delta_n_uall' lua = -1.35767e-016 wua = -1.26991e-015 pua = 7.87026e-022
 + ub = 2.15589e-018 lub = 6.65661e-026 wub = -5.39384e-024 pub = -1.78814e-030
 + uc = 2.07854e-010 luc = -1.50312e-017 wuc = -1.53622e-015 puc = -1.07865e-022
@@ -2271,7 +2271,7 @@
 *
 .model n18llb3.11 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1e-005 wmax = 0.0001002
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.453432 + delta_n_vth0ll' lvth0 = -2.39788e-008 wvth0 = -8.09912e-008 pvth0 = 2.16223e-013
 + k1 = 0.602902 lk1 = 3.93931e-008 wk1 = 1.7555e-007 pk1 = -2.60143e-013
 + k2 = -0.0546879 lk2 = -2.94519e-009 wk2 = -1.04381e-007 pk2 = 9.53576e-014
@@ -2334,7 +2334,7 @@
 *
 .model n18llb3.12 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1e-005 wmax = 0.0001002
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.422282 + delta_n_vth0ll' lvth0 = 1.21264e-008 wvth0 = 4.26826e-008 pvth0 = 7.28748e-014
 + k1 = 0.628439 lk1 = 9.79437e-009 wk1 = 5.69781e-007 pk1 = -7.17088e-013
 + k2 = -0.0490252 lk2 = -9.50871e-009 wk2 = -2.52855e-007 pk2 = 2.67451e-013
@@ -2398,7 +2398,7 @@
 
 .model p18llb3.0  pmos  level = 49
 +lmin    = 1.2e-006        lmax    = 1.0001e-005     wmin    = 1e-005          wmax    = 0.000100001   
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2               
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2               
 +binflag = 0               lref    = 1.2e-006        wref    = 1e-005        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2444,7 +2444,7 @@
 
 .model p18llb3.1  pmos  level = 49
 +lmin    = 1.2e-006        lmax    = 1.0001e-005     wmin    = 1.2e-006        wmax    = 1e-005        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2                
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2                
 +binflag = 0               lref    = 1.2e-006        wref    = 1.2e-006      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2502,7 +2502,7 @@
 
 .model p18llb3.2  pmos  level = 49
 +lmin    = 1.2e-006        lmax    = 1.0001e-005     wmin    = 5e-007          wmax    = 1.2e-006      
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2               
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2               
 +binflag = 0               lref    = 1.2e-006        wref    = 5e-007        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2558,7 +2558,7 @@
 
 .model p18llb3.3  pmos  level = 49
 +lmin    = 1.2e-006        lmax    = 1.0001e-005     wmin    = 2.2e-007        wmax    = 5e-007        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2              
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2              
 +binflag = 0               lref    = 1.2e-006        wref    = 2.2e-007      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2616,7 +2616,7 @@
 
 .model p18llb3.4  pmos  level = 49
 +lmin    = 5e-007          lmax    = 1.2e-006        wmin    = 1e-005          wmax    = 0.000100001   
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2                
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2                
 +binflag = 0               lref    = 5e-007          wref    = 1e-005        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2662,7 +2662,7 @@
 
 .model p18llb3.5  pmos  level = 49
 +lmin    = 5e-007          lmax    = 1.2e-006        wmin    = 1.2e-006        wmax    = 1e-005        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2            
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2            
 +binflag = 0               lref    = 5e-007          wref    = 1.2e-006      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2723,7 +2723,7 @@
 
 .model p18llb3.6  pmos  level = 49
 +lmin    = 5e-007          lmax    = 1.2e-006        wmin    = 5e-007          wmax    = 1.2e-006      
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2         
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2         
 +binflag = 0               lref    = 5e-007          wref    = 5e-007        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2784,7 +2784,7 @@
 
 .model p18llb3.7  pmos  level = 49
 +lmin    = 5e-007          lmax    = 1.2e-006        wmin    = 2.2e-007        wmax    = 5e-007        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2              
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2              
 +binflag = 0               lref    = 5e-007          wref    = 2.2e-007      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2842,7 +2842,7 @@
 
 .model p18llb3.8  pmos  level = 49
 +lmin    = 1.8e-007        lmax    = 5e-007          wmin    = 1e-005          wmax    = 0.000100001   
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2        
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2        
 +binflag = 0               lref    = 1.8e-007        wref    = 1e-005        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2888,7 +2888,7 @@
 
 .model p18llb3.9  pmos  level = 49
 +lmin    = 1.8e-007        lmax    = 5e-007          wmin    = 1.2e-006        wmax    = 1e-005        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2             
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2             
 +binflag = 0               lref    = 1.8e-007        wref    = 1.2e-006      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -2934,7 +2934,7 @@
 +pkt2    = -4.3009619e-015  ute     = -0.52167565     lute    = 6.0661368e-009  wute    = -1.1607879e-007
 +pute    = 3.2336757e-014  ua1     = 1.1718494e-009  lua1    = 1.4075284e-017  wua1    = 2.8150568e-016
 +pua1    = -1.4075284e-022  ub1     = -2.1328792e-018  lub1    = 1.8391424e-025  wub1    = -8.6522122e-026
-+pub1    = 2.0642486e-031  uc1     = 6.0402799e-011  luc1    = -1.2938004e-017  wuc1    = -3.2452892e-017
++pub1    = 2.0642486e-031  uc1     = 6.0402799e-011  luc1    = -1.2938004e-017  wuc1    = -3.2.452892e-017
 +puc1    = 2.0754496e-023  prt     = 1.1258508       lprt    = -2.2525206e-007  wprt    = -1.072546e-005
 +pprt    = 1.9575219e-012  at      = 482947.98       lat     = -0.076868126    wat     = -0.18318077   
 +pat     = 8.6604724e-008
@@ -2949,7 +2949,7 @@
 
 .model p18llb3.10  pmos  level = 49
 +lmin    = 1.8e-007        lmax    = 5e-007          wmin    = 5e-007          wmax    = 1.2e-006      
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2        
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2        
 +binflag = 0               lref    = 1.8e-007        wref    = 5e-007        
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               tox      = '4e-009 + delta_p_toxll'          wint    = '0+delta_p_wintll'               lint     = '0 + delta_p_lintll'             
@@ -3010,7 +3010,7 @@
 
 .model p18llb3.11  pmos  level = 49
 +lmin    = 1.8e-007        lmax    = 5e-007          wmin    = 2.2e-007        wmax    = 5e-007        
-+version = 3.24             mobmod  = 1               capmod  = 3               binunit = 2             
++version = 3.2.4             mobmod  = 1               capmod  = 3               binunit = 2             
 +nqsmod  = 0                binflag = 0               lref    = 1.8e-007        wref    = 2.2e-007      
 +tref    = 27              xl      = 0               xw      = 0               lmlt    = 1             
 +wmlt    = 1               llc = '0+delta_p_llcll'               lwc     = 0               lwlc    = 0             
@@ -3195,7 +3195,7 @@
 .lib nphvmos
 .model nhv.1 nmos (
 + lmin = 3.35e-007 lmax = 5e-007 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.626064 + delta_n_vth0_hv' lvth0 = -9.72e-009 wvth0 = -2.13321e-008 pvth0 = 5.049e-015
 + k1 = 0.6462 lk1 = 1.2339e-008 wk1 = 3.3e-008 pk1 = 4.455e-016
 + k2 = -0.0149127 lk2 = 1.31414e-008 wk2 = -8.92744e-009 pk2 = -2.75972e-015
@@ -3252,7 +3252,7 @@
 *
 .model nhv.2 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.649939 + delta_n_vth0_hv' lvth0 = -1.97472e-008 wvth0 = -2.13793e-008 pvth0 = 5.0688e-015
 + k1 = 0.692104 lk1 = -6.9408e-009 wk1 = 5.20379e-008 pk1 = -7.5504e-015
 + k2 = -0.023963 lk2 = 1.69426e-008 wk2 = -2.04325e-008 pk2 = 2.0724e-015
@@ -3309,7 +3309,7 @@
 *
 .model nhv.3 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.594519 + delta_n_vth0_hv' lvth0 = 4.23223e-008 wvth0 = -2.01786e-009 pvth0 = -1.6616e-014
 + k1 = 0.872841 lk1 = -2.09366e-007 wk1 = 5.88214e-009 pk1 = 4.4144e-014
 + k2 = -0.0582771 lk2 = 5.53743e-008 wk2 = -4.362e-009 pk2 = -1.59266e-014
@@ -3366,7 +3366,7 @@
 *
 .model nhv.4 nmos (
 + lmin = 3.35e-007 lmax = 5e-007 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.707171 + delta_n_vth0_hv' lvth0 = -1.9062e-008 wvth0 = -6.18857e-008 pvth0 = 9.72e-015
 + k1 = 0.597343 lk1 = 6.831e-008 wk1 = 5.74286e-008 pk1 = -2.754e-014
 + k2 = -0.0389534 lk2 = -4.44636e-009 wk2 = 3.09291e-009 pk2 = 6.03418e-015
@@ -3423,7 +3423,7 @@
 *
 .model nhv.5 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.586746 + delta_n_vth0_hv' lvth0 = 3.15168e-008 wvth0 = 1.02171e-008 pvth0 = -2.05632e-014
 + k1 = 0.798477 lk1 = -1.61664e-008 wk1 = -1.14857e-009 pk1 = -2.9376e-015
 + k2 = -0.0430257 lk2 = -2.736e-009 wk2 = -1.09011e-008 pk2 = 1.19117e-014
@@ -3480,7 +3480,7 @@
 *
 .model nhv.6 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.643679 + delta_n_vth0_hv' lvth0 = -3.2249e-008 wvth0 = -2.65979e-008 pvth0 = 2.06697e-014
 + k1 = 0.736585 lk1 = 5.31532e-008 wk1 = 7.40104e-008 pk1 = -8.71156e-014
 + k2 = -0.0259651 lk2 = -2.18438e-008 wk2 = -2.0518e-008 pk2 = 2.26825e-014
@@ -3537,7 +3537,7 @@
 *
 .model nhv.7 nmos (
 + lmin = 3.35e-007 lmax = 5e-007 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.582691 + delta_n_vth0_hv' lvth0 = 3.38482e-009 wvth0 = 8.74909e-008 pvth0 = -1.72162e-014
 + k1 = 0.653473 lk1 = 5.47241e-008 wk1 = -9.92727e-009 pk1 = -1.12369e-014
 + k2 = 0.0526854 lk2 = -3.50959e-008 wk2 = -1.06874e-007 pk2 = 4.28137e-014
@@ -3594,7 +3594,7 @@
 *
 .model nhv.8 nmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.626874 + delta_n_vth0_hv' lvth0 = -1.51719e-008 wvth0 = -3.79364e-008 pvth0 = 3.54633e-014
 + k1 = 0.809179 lk1 = -1.06726e-008 wk1 = -1.39909e-008 pk1 = -9.53018e-015
 + k2 = -0.0638691 lk2 = 1.38569e-008 wk2 = 1.41109e-008 pk2 = -7.99985e-015
@@ -3651,7 +3651,7 @@
 *
 .model nhv.9 nmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '0.594205 + delta_n_vth0_hv' lvth0 = 2.14174e-008 wvth0 = 3.27719e-008 pvth0 = -4.373e-014
 + k1 = 0.812527 lk1 = -1.44217e-008 wk1 = -1.71198e-008 pk1 = -6.02579e-015
 + k2 = -0.0375719 lk2 = -1.55959e-008 wk2 = -6.58983e-009 pk2 = 1.5185e-014
@@ -3709,7 +3709,7 @@
 * 
 .model phv.1 pmos (
 + lmin = 2.85e-007 lmax = 5e-007 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.657936 + delta_p_vth0_hv' lvth0 = 7.76571e-009 wvth0 = -3.73214e-009 pvth0 = -1.82286e-015
 + k1 = 0.596314 lk1 = 1.59951e-007 wk1 = 4.60429e-008 pk1 = -1.98157e-014
 + k2 = 0.189823 lk2 = -6.20054e-008 wk2 = -2.01614e-008 pk2 = 7.57271e-015
@@ -3772,7 +3772,7 @@
 *
 .model phv.2 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.815891 + delta_p_vth0_hv' lvth0 = 7.09478e-008 wvth0 = 2.57883e-008 pvth0 = -1.3631e-014
 + k1 = 1.11925 lk1 = -4.92216e-008 wk1 = 1.49622e-008 pk1 = -7.38347e-015
 + k2 = -0.0404071 lk2 = 3.00866e-008 wk2 = -2.39643e-009 pk2 = 4.66714e-016
@@ -3835,7 +3835,7 @@
 *
 .model phv.3 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 2.05e-007 wmax = 5e-007
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.666134 + delta_p_vth0_hv' lvth0 = -9.37848e-008 wvth0 = -8.08304e-009 pvth0 = 2.36274e-014
 + k1 = 0.948018 lk1 = 1.3913e-007 wk1 = 9.84107e-009 pk1 = -1.75018e-015
 + k2 = 0.0382338 lk2 = -5.64185e-008 wk2 = -5.10567e-009 pk2 = 3.44688e-015
@@ -3898,7 +3898,7 @@
 *
 .model phv.4 pmos (
 + lmin = 2.85e-007 lmax = 5e-007 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.615343 + delta_p_vth0_hv' lvth0 = -8.08571e-009 wvth0 = -2.50286e-008 pvth0 = 6.10286e-015
 + k1 = 0.974686 lk1 = 4.09143e-009 wk1 = -1.43143e-007 pk1 = 5.81143e-014
 + k2 = 0.0350543 lk2 = -3.38571e-009 wk2 = 5.72229e-008 pk2 = -2.17371e-014
@@ -3915,7 +3915,7 @@
 + pclm = 8.48814 lpclm = -1.51577e-006 wpclm = -4.29857e-006 ppclm = 1.00149e-012
 + pdiblcb = -15.6811 lpdiblcb = 4.13623e-006 wpdiblcb = 1.03406e-005 ppdiblcb = -2.06811e-012
 + pscbe1 = 3.44857e+008 lpscbe1 = 19.4629 wpscbe1 = 67.3714 ppscbe1 = -4.97143e-006
-+ pvag = 158.988 lpvag = -3.24294e-005 wpvag = -8.17053e-005 ppvag = 1.70993e-011
++ pvag = 158.988 lpvag = -3.2.4294e-005 wpvag = -8.17053e-005 ppvag = 1.70993e-011
 + ute = -0.213971 lute = -1.04097e-007 wute = -8.75143e-008 pute = 6.05486e-014
 + ua1 = 4.27057e-009 lua1 = 5.86286e-017 wua1 = -6.28286e-016 pua1 = 1.01486e-022
 + ub1 = -5.501e-018 lub1 = -4.73314e-025 wub1 = 9.42e-025 pub1 = 3.32571e-032
@@ -3961,7 +3961,7 @@
 *
 .model phv.5 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.639441 + delta_p_vth0_hv' lvth0 = 1.55347e-009 wvth0 = -6.24367e-008 pvth0 = 2.10661e-014
 + k1 = 0.914559 lk1 = 2.8142e-008 wk1 = 1.17306e-007 pk1 = -4.60653e-014
 + k2 = 0.0437837 lk2 = -6.87747e-009 wk2 = -4.44918e-008 pk2 = 1.89487e-014
@@ -4024,7 +4024,7 @@
 *
 .model phv.6 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 5e-007 wmax = 1.2e-006
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.700836 + delta_p_vth0_hv' lvth0 = 6.90879e-008 wvth0 = 9.26786e-009 pvth0 = -5.78089e-014
 + k1 = 0.942007 lk1 = -2.05071e-009 wk1 = 1.28464e-008 pk1 = 6.88404e-014
 + k2 = 0.0315625 lk2 = 6.56582e-009 wk2 = -1.77e-009 pk2 = -2.80453e-014
@@ -4087,7 +4087,7 @@
 *
 .model phv.7 pmos (
 + lmin = 2.85e-007 lmax = 5e-007 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.66745 + delta_p_vth0_hv' lvth0 = 1.95455e-009 wvth0 = 3.75e-008 pvth0 = -5.94545e-015
 + k1 = 0.749036 lk1 = 9.78836e-008 wk1 = 1.27636e-007 pk1 = -5.44364e-014
 + k2 = 0.127365 lk2 = -4.02318e-008 wk2 = -5.355e-008 pk2 = 2.24782e-014
@@ -4150,7 +4150,7 @@
 *
 .model phv.8 pmos (
 + lmin = 5e-007 lmax = 1.2e-006 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.687478 + delta_p_vth0_hv' lvth0 = 9.96571e-009 wvth0 = -4.79221e-009 pvth0 = 1.09714e-014
 + k1 = 1.08865 lk1 = -3.796e-008 wk1 = -9.15974e-008 pk1 = 3.32571e-014
 + k2 = -0.0233706 lk2 = 2.00624e-008 wk2 = 3.60933e-008 pk2 = -1.33791e-014
@@ -4213,7 +4213,7 @@
 *
 .model phv.9 pmos (
 + lmin = 1.2e-006 lmax = 1.02e-005 wmin = 1.2e-006 wmax = 10.02e-005
-+ level = 49 version = 3.24
++ level = 49 version = 3.2.4
 + vth0 = '-0.690911 + delta_p_vth0_hv' lvth0 = 1.37419e-008 wvth0 = -2.64205e-009 pvth0 = 8.60625e-015
 + k1 = 0.960511 lk1 = 1.02988e-007 wk1 = -9.35795e-009 pk1 = -5.72063e-014
 + k2 = 0.0308288 lk2 = -3.9557e-008 wk2 = -8.89602e-010 pk2 = 2.73021e-014
@@ -4527,7 +4527,7 @@
 + xtb = 0 
 + eg = 1.17 
 + xti = 3 
-+ cje = 3.245e-14 
++ cje = 3.2.45e-14 
 + vje = 1.451 
 + mje = 0.6593 
 + tf = 4.781e-11 
@@ -4990,7 +4990,7 @@
 +rdsw    = 170             a0      = -0.1            ags     = -0.02           a1      = 0             
 +a2      = 0.99            b0      = 0               b1      = 0               vsat    = 141989.28     
 +lvsat   = -0.022342246    wvsat   = 0.00028703696   pvsat   = 3.453677e-009   keta    = 0.001616644   
-+lketa   = -3.245717e-009  wketa   = -3.188246e-009  pketa   = 1.4954235e-015  dwg     = 0             
++lketa   = -3.2.45717e-009  wketa   = -3.188246e-009  pketa   = 1.4954235e-015  dwg     = 0             
 +dwb     = 0               alpha0  = 0               beta0   = 30              pclm    = 0.9600001     
 +lpclm   = 1.6659995e-007  pdiblc1 = 1e-006          pdiblc2 = 0.01            pdiblcb = 0.01          
 +drout   = 0               pvag    = 0               pscbe1  = 3e+008          pscbe2  = 1e-006        

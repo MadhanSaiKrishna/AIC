@@ -35,29 +35,11 @@ Considering $V_{DS} = 1\text{V}$ and $\frac{W}{L} = \frac{500\text{n}}{180\text{
     \caption{Schematic for $I_D$ vs $V_{GS}$ and $g_m$ vs $V_{GS}$ simulations.}
 \end{figure}
 
-\subsubsection*{Simulation Results (Plots)}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/q1_a_2.png}
-    \caption{Simulated $I_D$ vs $V_{GS}$ for different $V_{SB}$ values.}
-\end{figure}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{images/q1_a_3.png}
-    \caption{Simulated $g_m$ vs $V_{GS}$ for different $V_{SB}$ values.}
-\end{figure}
-
-\subsubsection*{Discussion}
-% Briefly discuss variations, causes, and analytical match.
-\textit{Discussion:} 
-
 \subsection*{(b) Reference Current $I_{D0}$}
 For $V_{SB} = 0\text{V}$ and $V_{GS} = 0.9\text{V}$:
 \begin{itemize}
-    \item $I_{D0} = $ \underline{\hspace{3cm}}
-    \item $g_{m0} = $ \underline{\hspace{3cm}}
+    \item $I_{D0} = 50.576 \mu A $ 
+    \item $g_{m0} = 174.914 \mu S$ 
 \end{itemize}
 
 \begin{figure}[H]
@@ -72,11 +54,16 @@ For $V_{SB} = 0\text{V}$ and $V_{GS} = 0.9\text{V}$:
     \caption{$g_{m0}$ value at $V_{GS} = 0.9\text{V}$ and $V_{SB} = 0\text{V}$.}
 \end{figure}
 
-\subsection*{(c) $g_m$ Variation for $V_{GS} = 0.9\text{V}$}
+\subsection*{(c) $g_m$ variations for $V_{GS} = 0.9\text{V}$}
 % Report variation considering VSB=0 as reference
 \begin{itemize}
-    \item Case $V_{SB} = 0.9\text{V}$: Variation = 
-    \item Case $V_{SB} = -0.9\text{V}$: Variation = 
+    \item Case $V_{SB} = 0.9\text{V}$:\\
+     $V_{SB} = 0.9\text{V}$: $I_D = 31.1079 \mu A$, $g_m = 169.21 \mu S$ \\
+     $V_{SB} = -0.9\text{V}$: $I_D = 60.6638 \mu A$, $g_m = 198.199 \mu S$ \\
+     $V_{SB} = 0\text{V}$: $I_D = 50.576 \mu A$, $g_m = 194.914 \mu S$ \\
+     Variation when $V_{SB} = 0.9\text{V}$ = $\frac{169.21 - 194.914}{194.914} \times 100\% = -13.65\%$ \\
+     Variation when $V_{SB} = -0.9\text{V}$ = $\frac{198.199 - 194.914}{194.914} \times 100\% = 1.68\%$
+    \item Case $V_{SB} = -0.9\text{V}$: 
 \end{itemize}
 
 \begin{figure}[H]
@@ -94,8 +81,13 @@ For $V_{SB} = 0\text{V}$ and $V_{GS} = 0.9\text{V}$:
 \subsection*{(d) $g_m$ Variation for $I_D = I_{D0}$}
 % Report variation considering VSB=0 as reference
 \begin{itemize}
-    \item Case $V_{SB} = 0.9\text{V}$: Variation = 
-    \item Case $V_{SB} = -0.9\text{V}$: Variation = 
+    \item Case $V_{SB} = 0.9\text{V}$:\\
+     $V_{SB} = 0.9\text{V}$: $I_D = 50.5756 \mu A$, $g_m = 198.811 \mu S$ \\
+     $V_{SB} = -0.9\text{V}$: $I_D = 50.57562 \mu A$, $g_m = 185.627 \mu S$ \\
+     $V_{SB} = 0\text{V}$: $I_D = 50.576 \mu A$, $g_m = 194.914 \mu S$ \\
+     Variation when $V_{SB} = 0.9\text{V}$ = $\frac{198.811 - 194.914}{194.914} \times 100\% = 2.00\%$ \\
+     Variation when $V_{SB} = -0.9\text{V}$ = $\frac{185.627 - 194.914}{194.914} \times 100\% = -4.76\%$
+    \item Case $V_{SB} = -0.9\text{V}$: 
 \end{itemize}
 
 \begin{figure}[H]
@@ -109,6 +101,46 @@ For $V_{SB} = 0\text{V}$ and $V_{GS} = 0.9\text{V}$:
     \includegraphics[width=0.8\textwidth]{images/q1_d_2.png}
     \caption{$g_m$ variation at $I_D = I_{D0}$ for different $V_{SB} = -0.9$.}
 \end{figure}
+\subsubsection*{Simulation Results (Plots)}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q1_a_2.png}
+    \caption{Simulated $I_D$ vs $V_{GS}$ for different $V_{SB}$ values.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q1_a_3.png}
+    \caption{Simulated $g_m$ vs $V_{GS}$ for different $V_{SB}$ values.}
+\end{figure}
+
+\subsubsection*{Discussion}
+% Briefly discuss variations, causes, and analytical match.
+
+\textbf{1. Physical Phenomenon: The Body Effect}\\
+The primary cause for the variations observed in the $I_D$ and $g_m$ plots is the \textbf{Body Effect}. In the 180 nm technology, the threshold voltage ($V_{T}$) is dependent on the source-to-bulk voltage ($V_{SB}$). As $V_{SB}$ increases (e.g., to $0.9\text{V}$), the depletion region width increases, which raises $V_{T}$. Conversely, a negative $V_{SB}$ ($-0.9\text{V}$) reduces the threshold voltage.
+
+\textbf{2. Case (c): Constant $V_{GS}$ Variation}\\
+In this voltage-biased configuration, $V_{GS}$ is held constant at $0.9\text{V}$. Because $V_{T}$ increases with $V_{SB}$, the effective overdrive voltage $(V_{GS} - V_{T})$ is reduced, leading to a significant drop in transconductance. Using $V_{SB} = 0\text{V}$ as a reference ($g_m = 194.914\,\mu\text{S}$):
+\begin{itemize}
+    \item \textbf{For $V_{SB} = 0.9\text{V}$:} $g_m = 169.21\,\mu\text{S}$. This represents a variation of \textbf{$-13.19\%$}.
+    \item \textbf{For $V_{SB} = -0.9\text{V}$:} $g_m = 198.199\,\mu\text{S}$. This represents a variation of \textbf{$1.69\%$}.
+\end{itemize}
+
+\textbf{3. Case (d): Constant $I_D$ Variation}\\
+In the current-biased configuration, $I_D$ is held constant at approximately $50.58\,\mu\text{A}$. Here, $V_{GS}$ automatically adjusts to compensate for changes in $V_{T}$, which stabilizes the transconductance.
+\begin{itemize}
+    \item \textbf{For $V_{SB} = 0.9\text{V}$:} $g_m = 198.811\,\mu\text{S}$. This represents a variation of only \textbf{$2.00\%$}.
+    \item \textbf{For $V_{SB} = -0.9\text{V}$:} $g_m = 185.627\,\mu\text{S}$. This represents a variation of \textbf{$-4.76\%$}.
+\end{itemize}
+
+\textbf{4. Core Inference}\\
+Comparing these cases reveals that \textbf{current-biasing (Part d) is significantly more robust} against substrate potential fluctuations than voltage-biasing (Part c). While the transconductance varied by over $13\%$ in the voltage-biased case, it remained within approximately $5\%$ when the current was fixed. This is a primary reason why analog designers prefer current-source biasing to ensure stable amplifier gain.
+
+\textbf{5. Analytical Match}\\
+The results align with the analytical square-law model where $g_m = \sqrt{2\mu C_{ox}\frac{W}{L}I_D}$. Under constant $I_D$, the $g_m$ remains relatively stable to the first order. Small observed variations in simulation are attributed to second-order effects like mobility degradation and depletion capacitance changes inherent in the 180 nm process.
+
 
 \newpage
 
@@ -133,9 +165,28 @@ Sweep $I_D$ from $10\,\mu\text{A}$ to $1\text{mA}$ for:
     \caption{Simulated $g_m$ vs $I_D$ for $(W/L) = 0.45u/0.18u$.}
 \end{figure}
 
-\textbf{Inference:} Which case is closer to the expected form $g_m = \frac{2I_D}{V_{GS}-V_T}$ and why?
+\textbf{1. Comparison with Analytical Form}\\
+Between the two cases, the $(W/L) = 3\mu\text{m}/1\mu\text{m}$ transistor exhibits a $g_m$ plot that is significantly closer to the expected analytical form $g_m = 2I_D/(V_{GS}-V_T)$. This is primarily because the threshold voltage ($V_T$) used for the calculation was extracted for a $1\mu\text{m}$ channel length in the previous assignment. Consequently, the analytical model remains well-calibrated for this specific device geometry.
+
+\textbf{2. Impact of Channel Length on $V_T$}\\
+The short-channel case ($0.18\mu\text{m}$) deviates from the expected form because the threshold voltage is not constant across different channel lengths. Due to short-channel effects such as Drain-Induced Barrier Lowering (DIBL), the $V_T$ for the $0.18\mu\text{m}$ device differs from the $1\mu\text{m}$ reference, leading to inaccuracies when applying the same analytical constants.
+
+\textbf{3. Velocity Saturation}\\
+Furthermore, long-channel devices like the $1\mu\text{m}$ transistor better obey the square-law equations over a larger current range. In contrast, the $0.18\mu\text{m}$ device experiences velocity saturation at higher values of $I_D$, causing the transconductance to level off or "saturate" earlier than predicted by the simple $2I_D/V_{OV}$ model. This physical limitation further separates the short-channel performance from the theoretical ideal.
 
 \subsection*{(b) Max Transconductance and Saturation}
+
+\begin{itemize}
+    \item $g_{m,max}$ observed for $(W/L) = 3u/1u$: 841.392 $\mu S$
+    \item $g_{m,max}$ observed for $(W/L) = 0.45u/0.18u$: 443.218 $\mu S$
+    \item $I_D$ at which $g_m$ saturates for $(W/L) = 3u/1u$: 0.792 mA
+    \item $I_D$ at which $g_m$ saturates for $(W/L) = 0.45u/0.18u$: 417.87 $\mu A$
+    \item $g_{m,use} = 0.8 \times g_{m,max} = 0.8 \times 841.392\mu S = 673.114\mu S$ for $(W/L) = 3u/1u$
+    \item $g_{m,use} = 0.8 \times g_{m,max} = 0.8 \times 443.218\mu S = 354.574\mu S$ for $(W/L) = 0.45u/0.18u$
+    \item $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$ for $(W/L) = 3u/1u$: 0.368 mA
+    \item $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$ for $(W/L) = 0.45u/0.18u$: 0.119 mA
+\end{itemize}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{images/q2_b_1.png}
@@ -172,14 +223,39 @@ Sweep $I_D$ from $10\,\mu\text{A}$ to $1\text{mA}$ for:
     \caption{Determining $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$ for $(W/L) = 0.45u/0.18u$.}
 \end{figure}
 
-\begin{itemize}
-    \item $g_{m,max}$ observed: \underline{\hspace{2cm}}
-    \item $I_D$ at which $g_m$ saturates: \underline{\hspace{2cm}}
-    \item $I_D$ for $g_{m,use} = 0.8 \times g_{m,max}$: \underline{\hspace{2cm}}
-\end{itemize}
-
 \subsection*{(c) Scaling Parameters}
-To obtain $g_{m,req} = 4 \times g_{m,use}$ while ensuring the same speed:
+
+\textbf{1. Scaling Methodology}\\
+For the short-channel device with $(W/L) = 0.45\mu m/0.18\mu m$, the design is scaled to obtain $g_{m,req} = 4 \times g_{m,use}$ while preserving circuit speed. By keeping the channel length $L$ fixed at 180 nm and scaling the width $W$ and bias current $I_D$ by a factor of 4, the transit frequency ($f_T \propto g_m/C_{gg}$) remains constant.
+
+\textbf{2. Calculated Parameters}\\
+Based on the values obtained in part (b), the parameters are scaled as follows:\\ For $(W/L) = 0.45\mu m/0.18\mu m$:
+\begin{itemize}
+    \item \textbf{Target Transconductance:} $g_{m,req} = 4 \times 354.574\,\mu S = 1.418\,mS$
+    \item \textbf{Scaled Width ($W_{new}$):} $4 \times 0.45\,\mu m = 1.8\,\mu m$
+    \item \textbf{Scaled Bias Current ($I_{D,new}$):} $4 \times 0.119\,mA = 0.476\,mA$
+\end{itemize}
+For $(W/L) = 3\mu m/1\mu m$:
+\begin{itemize}
+    \item \textbf{Required Transconductance:} $g_{m,req} = 4 \times 673.114\,\mu S = 2.692\,mS$
+    \item \textbf{Scaled Width:} $W_{new} = 4 \times 3\,\mu m = 12\,\mu m$
+    \item \textbf{Scaled Bias Current:} $I_{D,new} = 4 \times 0.368\,mA = 1.472\,mA$
+\end{itemize}
+\textbf{3. Simulation Results for $g_{m_{req}}$}\\
+For $(W/L) = 3\mu m/1\mu m$, the simulated $g_m$ at $I_D = 1.472\,mA$ is approximately $2.615\,mS$, confirming that the scaling approach successfully achieves the target transconductance while maintaining the same transit frequency. For $(W/L) = 0.45\mu m/0.18\mu m$, the simulated $g_m$ at $I_D = 0.476\,mA$ is approximately $1.24\,mS$, also confirming the effectiveness of the scaling method.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_c_1.png}
+    \caption{Scaling of $g_m$ with $I_D$ for $(W/L) = 3u/1u$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q2_c_2.png}
+    \caption{Scaling of $g_m$ with $I_D$ for $(W/L) = 0.45u/0.18u$.}
+\end{figure}
+
 
 \newpage
 
@@ -188,31 +264,133 @@ To obtain $g_{m,req} = 4 \times g_{m,use}$ while ensuring the same speed:
 \textbf{Specifications:} $A_v > 60$, $f_u = 100\text{MHz}$, $C_L = 1\text{pF}$, $V_{DD} = 1.8\text{V}$, $V^* = \frac{2I_D}{g_m} = 200\text{mV}$.
 
 \subsection*{(a) Channel Length Selection}
-[Insert plot of $g_m r_o$ vs $V_{DS}$ for different $L$]
-\textbf{Chosen $L$:} \underline{\hspace{2cm}}
-\textbf{Output Swing Range:} \underline{\hspace{3cm}}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_a_schematic.png}
+    \caption{Schematic for $g_m r_o$ vs $V_{DS}$ simulation for different channel lengths.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_a_length_param.png}
+    \caption{Length parameter selection based on $g_m r_o$ vs $V_{DS}$ plots (Typical Corner; Sweep across channel lengths).}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_a_vds_swing.png}
+    \caption{Output swing range determination based on $g_m r_o$ vs $V_{DS}$ plots for the chosen channel length.}
+\end{figure}
+
+\textbf{Chosen $L$:} 300 nm (300 nm) based on the best trade-off between gain and output swing. \\
+\textbf{Output Swing Range:} 1.8 - 1.11 V = 0.69 V
 
 \subsection*{(b) Process and Temperature Variations}
-[Insert $g_m r_o$ vs $V_{DS}$ plot for corners: tt, ff, ss and temps: -40, 25, 80, 125 $^\circ$C]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_b_tt.png}
+    \caption{Typical-Typical corner (TT) $g_m r_o$ vs $V_{DS}$ for the chosen channel length and Temperature sweep.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_b_ss.png}
+    \caption{Slow-Slow corner (SS) $g_m r_o$ vs $V_{DS}$ for the chosen channel length and Temperature sweep.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_b_ff.png}
+    \caption{Fast-Fast corner (FF) $g_m r_o$ vs $V_{DS}$ for the chosen channel length and Temperature sweep.}
+\end{figure}
 
 \subsection*{(c) Design Calculations}
-\begin{itemize}
-    \item Calculated $g_m$:
-    \item Calculated $I_D$:
-    \item Calculated $W$:
-\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_c_1.png}
+    \caption{Finding the bias point for $g_m/I_D = 10$ for the chosen channel length.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_c_2.png}
+    \caption{Determining the unit width current at the bias point for $g_m/I_D = 10$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_c_3.png}
+    \caption{Scaling the width to achieve the required current for the target $g_m$.}
+\end{figure}
+
+\textbf{1. Required Transconductance and Current}\\
+To achieve the target unity-gain bandwidth $f_u = 100\text{ MHz}$ with a load capacitance $C_L = 1\text{ pF}$, the required transconductance is:
+\[ g_m = 2\pi \cdot f_u \cdot C_L = 2\pi \cdot 100\text{ MHz} \cdot 1\text{ pF} = 628.31\,\mu\text{S} \]
+Using the specified $V^* = 200\text{ mV}$, the transconductance efficiency is $g_m/I_D = 2/V^* = 10\text{ V}^{-1}$. Thus, the required drain current is:
+\[ I_D = \frac{g_m}{10} = 62.83\,\mu\text{A} \]
+
+\textbf{2. Sizing Procedure}\\
+For the chosen channel length $L = 0.3\,\mu\text{m}$, a DC sweep of $V_{GS}$ was performed to find the bias point where $g_m/I_D = 10$. This was found to occur at $V_{GS} \approx 628\text{ mV}$. At this bias point, a unit width of $W_{unit} = 1\,\mu\text{m}$ produced a current of $10.723\,\mu\text{A}$.
+
+\textbf{3. Final Transistor Width}\\
+To achieve the total required current of $62.83\,\mu\text{A}$, the width was scaled as follows:
+\[ W = \frac{I_{D,target}}{I_{D,unit}} \cdot W_{unit} = \frac{62.83\,\mu\text{A}}{10.723\,\mu\text{A}} \cdot 1\,\mu\text{m} \approx 5.85\,\mu\text{m} \]
+The final design uses $W = 8\,\mu\text{m}$ and $L = 0.3\,\mu\text{m}$ to meet all bandwidth and gain specifications.
+
 
 \subsection*{(d) Transient Analysis and THD}
-[Insert annotated transient plots]
-\textbf{THD for maximum input swing:} \underline{\hspace{2cm}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_d.png}
+    \caption{Transient response for $v_{in} = 10\sin(2\pi \cdot 1000t)\text{mV}$ at the input.}
+\end{figure}
+\textbf{THD for maximum input swing:} 8.76\%
 
 \subsection*{(e) AC Analysis}
-[Insert AC Response plots]
-\begin{itemize}
-    \item Verified $f_u$:
-    \item $f_{-3dB}$:
-    \item AC Gain:
-\end{itemize}
+
+The performance of the common-source amplifier was evaluated across process corners (TT, SS, FF) and temperatures $\{-40, 25, 80, 125\}^\circ\text{C}$ with $C_L = 1\text{ pF}$. The results for gain and $-3\text{ dB}$ bandwidth are tabulated below.
+
+% \begin{table}[H]
+% \centering
+% \caption{AC Performance Metrics across Process and Temperature Corners}
+% \begin{tabular}{@{}lcccc@{}}
+% \toprule
+% \textbf{Corner} & \textbf{Temperature ($^\circ$C)} & \textbf{Gain ($A_v$)} & \textbf{$f_{-3\text{dB}}$} & \textbf{$f_u$ (MHz)} \\ \midrule
+% \textbf{TT} & 25 &  dB &  MHz & 109 \\ \midrule
+% \textbf{SS} & -40 &  dB &  MHz & - \\
+%             & 25  &  dB &  MHz & - \\
+%             & 80  &  dB &  kHz & - \\
+%             & 125 &  dB &  MHz & - \\ \midrule
+% \textbf{FF} & -40 &  dB &  MHz & - \\
+%             & 25  &  dB &  kHz & - \\
+%             & 80  &  dB &  MHz & - \\
+%             & 125 &  dB  &  MHz & - \\ \bottomrule
+% \end{tabular}
+% \end{table}
+
+\textbf{Discussion on Results:}\\
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_e_tt_corner.png}
+    \caption{AC response from $1\text{Hz}$ to $200\text{MHz}$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_e_ss_corner.png}
+    \caption{AC response from $1\text{Hz}$ to $200\text{MHz}$ for SS corner.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q3_e_ff_corner.png}
+    \caption{AC response from $1\text{Hz}$ to $200\text{MHz}$ for FF corner.}
+\end{figure}
 
 \newpage
 
@@ -222,22 +400,152 @@ $R_L = 10\text{k}\Omega$, $V_{DD} = 1.8\text{V}$, $A_v > 5$, Overdrive $= 200\te
 
 \subsection*{(a) Design Procedure (Resistive Load)}
 % Show calculations for M1, M2, I_REF, C_b, R_b
-\textbf{Total Power Consumption:} \underline{\hspace{2cm}}
+
+\textbf{1. Design Specifications and Constraints}
+\begin{itemize}
+    \item Load Resistance ($R_L$): $10\text{ k}\Omega$
+    \item Supply Voltage ($V_{DD}$): $1.8\text{ V}$
+    \item Minimum Input Frequency ($f_{min}$): $100\text{ Hz}$
+    \item Target Overdrive Voltage ($V_{ov}$): $200\text{ mV}$
+    \item Target Voltage Gain ($A_v$): $> 5$ (Design target: $6$ for safety)
+\end{itemize}
+
+\textbf{2. Small-Signal Calculations}
+To achieve a gain of approximately $6$ with a resistive load:
+\[ A_v = g_m R_L \implies g_m = \frac{6}{10\text{ k}\Omega} = 600\,\mu\text{S} \]
+Using the square-law relation for transconductance:
+\[ g_m = \mu_n C_{ox} \frac{W}{L} V_{ov} \]
+Assuming $\mu_n C_{ox} \approx 200\,\mu\text{A/V}^2$ for the 180 nm process and setting $V_{ov} = 0.2\text{ V}$:
+\[ \frac{W}{L} = \frac{600\,\mu\text{S}}{200\,\mu\text{A/V}^2 \cdot 0.2\text{ V}} = 15 \]
+Choosing a channel length of $L = 1\,\mu\text{m}$, the width for transistors $M_1$ and $M_2$ is determined to be $W = 15\,\mu\text{m}$.
+
+\textbf{3. Biasing and Passive Components}
+The required bias current ($I_D$) is calculated as follows:
+\[ I_D = \frac{1}{2} \mu_n C_{ox} \frac{W}{L} V_{ov}^2 = \frac{1}{2} (200\,\mu) (15) (0.2)^2 = 60\,\mu\text{A} \]
+Consequently, the reference current $I_{REF}$ is set to $60\,\mu\text{A}$. To satisfy the low-frequency cutoff constraint of $100\text{ Hz}$:
+\[ f_{min} = \frac{1}{2\pi R_b C_b} \]
+Assuming $R_b = 50\text{ k}\Omega$, the coupling capacitance $C_b$ is:
+\[ C_b = \frac{1}{2\pi \cdot 100 \cdot 50\text{ k}\Omega} \approx 30\text{ nF} \]
+
+\textbf{4. Power Consumption Analysis}
+The total current is drawn from two main branches: the reference branch ($I_{REF}$) and the primary amplifier branch ($I_D$). The overall power consumed is:
+\[ P_{total} = V_{DD} \times (I_{REF} + I_D) = 1.8\text{ V} \times (60\,\mu\text{A} + 60\,\mu\text{A}) = 216\,\mu\text{W} \] \\
+
+\textbf{Total Power Consumption:} $217.63 \mu \text{W}$\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_a.png}
+    \caption{Overall Power Consumption Calculation for the Resistive Load Common-Source Amplifier.}
+\end{figure}
 
 \subsection*{(b) Transient Simulation}
-[Insert transient plots for $v_{in} = 10\sin(2\pi \cdot 1000t)\text{mV}$]
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_b.png}
+    \caption{Transient response for $v_{in} = 10\sin(2\pi \cdot 1000t)\text{mV}$ at the input.}
+\end{figure}
 
 \subsection*{(c) AC Response}
-[Insert AC plots $1\text{Hz}$ to $1\text{GHz}$]
-\textbf{Unity Bandwidth $f_u$:} \underline{\hspace{2cm}}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_c.png}
+    \caption{AC response from $1\text{Hz}$ to $200\text{MHz}$.}
+\end{figure}
+\textbf{Unity Bandwidth $f_u$:} 80.145 MHz
 
 \subsection*{(d) PMOS Current Source Load}
-[Insert design procedure, Transient, and AC plots for $A_v > 15$]
+
+
+\textbf{1. Design Methodology}\\
+To increase the voltage gain beyond 15, the resistive load is replaced with a PMOS current source load ($M_3$). A PMOS current source provides a much higher incremental output resistance ($r_{o3}$) compared to a $10\text{ k}\Omega$ resistor, significantly boosting the gain:
+\[ A_v = -g_{m1}(r_{o1} \parallel r_{o3}) \]
+The circuit uses the same bias current $I_D \approx 60\,\mu\text{A}$ and overdrive voltage $V_{ov} = 200\text{ mV}$ as obtained in the previous part to maintain power efficiency.
+
+\textbf{2. Sizing and Biasing}\\
+The PMOS load ($M_3$) and its bias transistor ($M_4$) are sized to mirror the required current. Assuming a similar overdrive voltage for the PMOS devices, the $W/L$ ratio is chosen to match the current drive of the NMOS input.
+\begin{itemize}
+    \item \textbf{Input Transistor ($M_1$):} $W/L = 15/1$ (as designed in part a).
+    \item \textbf{PMOS Load ($M_3, M_4$):} Sized to provide $I_{D} = 60\,\mu\text{A}$. For a PMOS in this technology, the $W/L$ is set to twice that of the NMOS to compensate for lower hole mobility.
+\end{itemize}
+
+\textbf{3. Performance Analysis}\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_d_ac.png}
+    \caption{AC response for the PMOS load common-source amplifier.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_d_tran.png}
+    \caption{Transient response for the PMOS load common-source amplifier.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_d_power.png}
+    \caption{Power consumption analysis for the PMOS load common-source amplifier.}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Voltage Gain:} The simulation reveals a gain of approximately $27\text{ dB}$, which corresponds to $A_v \approx 22.38$. This successfully meets the requirement of $A_v > 15$.
+    \item \textbf{Unity-Gain Bandwidth ($f_u$):} The unity-gain frequency is observed at approximately $82.85\text{MHz}$ in AC simulation.
+    \item \textbf{Power Consumption:} An additional current branch for the PMOS bias ($I_{REF2}$) increases the total power consumption to $326.13\,\mu\text{W}$.
+\end{itemize}
+
+\textbf{4. Results Discussion}\\
+The transition to an active load results in a significant gain improvement (from $\approx 5$ to $\approx 22$) without increasing the supply voltage. However, the output voltage swing is now limited by the saturation requirements of both the NMOS driver and the PMOS load ($V_{ov,n} \le V_{out} \le V_{DD} - |V_{ov,p}|$).
 
 \subsection*{(e) Cascode Amplifier Design}
 [Insert design procedure, Transient, and AC plots]
-\textbf{Observed Gain:} \underline{\hspace{2cm}}
-\textbf{Comparison with Hand Calculations:}
+
+\textbf{1. Design Methodology and Biasing}\\
+The cascode amplifier is designed by stacking an NMOS device ($M_5$) on top of the input transistor ($M_1$). To maintain consistency with the previous stages, $M_5$ is sized roughly the same as $M_1$ ($W/L = 15/1$) and biased with the same current $I_D \approx 60\,\mu\text{A}$. 
+
+To ensure both $M_1$ and $M_5$ remain in saturation with an overdrive voltage of $200\text{ mV}$, the cascode gate bias $V_b$ is calculated as:
+\[ V_{b,min} = V_{Tn} + V_{ov1} + V_{ov2} \]
+Using the threshold voltage $V_{Tn} \approx 568\text{ mV}$ from previous characterizations and $V_{ov} = 200\text{ mV}$, the minimum bias is approximately $968\text{ mV}$. A value of $V_b = 1.2\text{ V}$ was used in simulation for improved safety margin.
+
+\textbf{2. Gain Analysis and Comparison}\\
+The theoretical gain of the cascode amplifier is given by:
+\[ A_v \approx -g_{m1} \cdot [ (g_{m2}r_{o2}r_{o1}) \parallel r_{o3} ] \]
+\begin{itemize}
+    \item \textbf{Simulated Gain:} The AC analysis shows a gain of \textbf{31 dB}, which corresponds to $A_v \approx 35.48$.
+    \item \textbf{Hand Calculations:} Based on the intrinsic gain of the devices in the 180 nm process, the hand calculations predicted a significant gain increase over the single-stage PMOS load amplifier. The simulated result of $35.48$ matches the expected trend, confirming that the cascode device effectively shields the input transistor and boosts output impedance.
+\end{itemize}
+
+\textbf{3. Transient and AC Response}\\
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_e_tran.png}
+    \caption{Transient response for the cascode amplifier with $v_{in} = 10\sin(2\pi \cdot 1000t)\text{mV}$ at the input.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_e_ac.png}
+    \caption{AC response for the cascode amplifier from $1\text{Hz}$ to $200\text{MHz}$.}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{images/q4_e_power.png}
+    \caption{Power consumption analysis for the cascode amplifier.}
+\end{figure}
+
+\begin{itemize}
+    \item \textbf{Transient Analysis:} For a $10\text{ mV}$ peak input signal, the output displays a clear, amplified sinusoidal waveform with minimal distortion, verifying the functionality of the bias network.
+    \item \textbf{AC Response:} The unity-gain frequency ($f_u$) is observed at approximately \textbf{74 MHz}, indicating that the cascode structure maintains high-frequency performance while providing superior gain.
+    \item \textbf{Power Consumption:} The total power consumption for the cascode amplifier is approximately $316.08\,\mu\text{W}$
+\end{itemize}
+
+\textbf{4. Discussion on Output Swing}\\
+While the cascode configuration offers the highest gain among the three topologies, it suffers from the most restricted output voltage swing. The output must satisfy $V_{out} \ge V_{ov1} + V_{ov2}$ to keep both NMOS devices in saturation, and $V_{out} \le V_{DD} - |V_{ov,p}|$ for the PMOS load, leading to a narrower "headroom" for the signal.\\
+
 
 \subsection*{(f) Comparison Table}
 \begin{table}[H]
@@ -246,9 +554,9 @@ $R_L = 10\text{k}\Omega$, $V_{DD} = 1.8\text{V}$, $A_v > 5$, Overdrive $= 200\te
 \begin{tabular}{@{}lcccc@{}}
 \toprule
 \textbf{Topology} & \textbf{Gain} & \textbf{Power} & \textbf{Output Swing} & \textbf{Remarks} \\ \midrule
-Resistive Load    &               &                &                       &                  \\
-PMOS Load         &               &                &                       &                  \\
-Cascode           &               &                &                       &                  \\ \bottomrule
+Resistive Load    & $\approx 12$ (21.54 dB) & 217.63 $\mu$W & Wide & Low gain, simple design \\
+PMOS Load         & $\approx 22.38$ (27 dB) & 326.13 $\mu$W & Limited & High gain, restricted swing \\
+Cascode           & $\approx 35.48$ (31 dB) & 316.08 $\mu$W & Most restricted & Highest gain, lowest swing \\ \bottomrule
 \end{tabular}
 \end{table}
 

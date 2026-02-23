@@ -1,6 +1,6 @@
 LTspice 26.0.1 for Windows
 Circuit: C:\Users\madha\Desktop\AIC\Assignment 2\q3_copy.net
-Start Time: Mon Feb 23 03:18:28 2026
+Start Time: Mon Feb 23 19:37:33 2026
 C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
 + binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
   ^^^^^^^^^^^^
@@ -2087,7 +2087,1252 @@ C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown m
 + acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
                         ^^^^^^^^^^^
 .step lambda=2.7e-07
-Total elapsed time: 3.654 seconds.
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+.step lambda=3e-07
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+.step lambda=3.3e-07
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(436): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(437): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(438): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(500): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(501): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(502): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(564): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(565): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(566): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(628): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(629): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(630): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(692): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(693): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(694): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(756): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(757): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(758): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(820): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(821): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(822): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(884): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(885): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(886): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(948): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(949): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(950): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1012): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1013): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1014): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1075): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1076): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1077): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1138): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1139): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1140): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1201): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1202): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1203): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1264): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1265): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1266): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1327): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1328): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1329): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1390): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1391): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1392): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1453): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1454): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1455): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+  ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+              ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1516): Ignoring unknown model parameter. This may or may not be a problem.
++ binflag = 1 lref = 1e14 wref = 1e14 tref = 25 
+                          ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
+                ^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1517): Ignoring unknown model parameter. This may or may not be a problem.
++ xl = 0 xw = 0 lmlt = 1 wmlt = 1 
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+                         ^^^^^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
+         ^^^^^^^^
+C:\Users\madha\Desktop\AIC\Assignment 2\ts18sl_scl.lib(1518): Ignoring unknown model parameter. This may or may not be a problem.
++ rd = 0 rdc = 0 rs = 0 rsc = 0 
++ acm = 12 hdif = 0.15e-6 ldif = 0 calcacm = 1 )
+                        ^^^^^^^^^^^
+.step lambda=3.5e-07
+Total elapsed time: 7.060 seconds.
 
 Files loaded:
 C:\Users\madha\Desktop\AIC\Assignment 2\q3_copy.net

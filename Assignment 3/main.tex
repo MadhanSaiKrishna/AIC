@@ -1,0 +1,229 @@
+\documentclass[12pt, a4paper]{article}
+
+% --- Packages ---
+\usepackage[margin=1in]{geometry} % Page margins
+\usepackage{amsmath}              % Math formulas
+\usepackage{amssymb}              % Math symbols
+\usepackage{graphicx}             % Inserting images (SPICE plots, schematics)
+\usepackage{booktabs}             % Beautiful tables
+\usepackage{caption}              % Caption formatting
+\usepackage{float}                % Image placement
+\usepackage{hyperref}             % Hyperlinks
+\usepackage{fancyhdr}             % Header/Footer
+
+% --- Header and Footer ---
+\setlength{\headheight}{15pt}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Analog IC Design: Assignment-3}
+\rhead{Spring 2026, IIIT Hyderabad}
+\cfoot{\thepage}
+
+% --- Document Information ---
+\title{\textbf{Assignment-3: Noise}\\ \large Analog IC Design (Spring 2026)}
+\author{
+    \textbf{Chamarthy Madhan Sai Krishna} \\ 
+    Roll Number: \texttt{2023102030}
+}
+\date{Due Date: 10th April 2026}
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+
+\hrule
+\vspace{0.5cm}
+\noindent \textbf{Note:} As per the instructions, practice problems from Question 1 are not included in this report.
+\vspace{0.5cm}
+
+% ==========================================
+% QUESTION 2: RC Circuit
+% ==========================================
+\section*{2. RC Circuit Noise Analysis}
+
+\subsection*{(a) Derivation of PSD and Output Integrated Noise Power}
+% Type your derivations here using $ $ for inline math and \begin{equation} for blocks.
+Let the PSD of the resistor noise be $4kTR$. 
+\begin{equation}
+    % Your derivation goes here
+    v_{n_{out}}^2 = \dots
+\end{equation}
+
+% Calculations
+\textbf{Calculations:}
+\begin{itemize}
+    \item \textbf{Case 1 ($BW = 10 \text{ GHz} - 1 \text{ Hz}$):} $P_{n_{out}} = \dots$, $v_{n_{out}} = \dots$
+    \item \textbf{Case 2 ($BW = 1 \text{ MHz} - 1 \text{ kHz}$):} $P_{n_{out}} = \dots$, $v_{n_{out}} = \dots$
+\end{itemize}
+
+\subsection*{(b) Noise Simulation Verification}
+% Insert your NGspice/LTSpice plots here
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{your_image_q2b.png}
+    \caption{Noise simulation verifying $v_{n_{out}}$ for both bandwidth cases.}
+\end{figure}
+\textit{Discussion:} [Insert your comments here verifying the values matched up to 2 decimal points.]
+
+\subsection*{(c) AC Gain and Noise Spectrum Plots}
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{your_image_q2c.png}
+    \caption{AC gain, output noise spectrum, and input noise spectrum.}
+\end{figure}
+\textit{Verification:} [Demonstrate $v_{n_{out}}^2 = A_v^2 \times v_{n_{in}}^2$ using annotations from your plots.]
+
+\subsection*{(d) $R = 20 \text{ k}\Omega$ and $C = 10 \text{ pF}$ Case}
+\textbf{Calculated $v_{n_{out}}$:} \dots \\
+\textbf{Simulated $v_{n_{out}}$:} \dots
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{your_image_q2d.png}
+    \caption{Gain and noise plots for $R = 20 \text{ k}\Omega, C = 10 \text{ pF}$.}
+\end{figure}
+\textit{Comparison \& Comments:} [Compare with the $10\text{k}\Omega, 10\text{pF}$ case.]
+
+\subsection*{(e) $R = 10 \text{ k}\Omega$ and $C = 20 \text{ pF}$ Case}
+\textbf{Calculated $v_{n_{out}}$:} \dots \\
+\textbf{Simulated $v_{n_{out}}$:} \dots
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.7\textwidth]{your_image_q2e.png}
+    \caption{Gain and noise plots for $R = 10 \text{ k}\Omega, C = 20 \text{ pF}$.}
+\end{figure}
+\textit{Comparison \& Comments:} [Compare with the $20\text{k}\Omega, 10\text{pF}$ case.]
+
+\newpage
+% ==========================================
+% QUESTION 3: Common Source Amplifier
+% ==========================================
+\section*{3. Common Source Amplifier with Drain Feedback Biasing}
+
+\subsection*{(a) Derivation of Noise Expressions}
+\begin{equation}
+    v_{n_{out}}^2 = \dots
+\end{equation}
+\begin{equation}
+    v_{n_{in}}^2 = \dots
+\end{equation}
+
+\subsection*{(b) Simulation Analysis ($W/L = 0.36\mu/0.18\mu$)}
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{your_image_q3b.png}
+    \caption{Gain, output noise, input referred noise, thermal noise, and flicker noise.}
+\end{figure}
+\textit{Verification:} [Verify that $v_{n_{out}} = A_v \times v_{n_{in}}$]
+
+\subsection*{(c) Estimation of $g_m$ and $r_o$}
+From the simulation results:
+\begin{itemize}
+    \item $g_m \approx \dots$
+    \item $r_o \approx \dots$
+\end{itemize}
+
+\subsection*{(d) Corner Frequency ($f_c$)}
+From the plots, the corner frequency $f_c \approx \dots$
+
+\subsection*{(e) Case: $W/L = 2\mu/1\mu$}
+Corner frequency $f_c \approx \dots$
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{your_image_q3e.png}
+    \caption{Simulation plots for $W/L = 2\mu/1\mu$.}
+\end{figure}
+\textit{Discussion:} [Compare noise performance and trade-offs with respect to part (b).]
+
+\subsection*{(f) Case: $W/L = 4\mu/2\mu$}
+Corner frequency $f_c \approx \dots$
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{your_image_q3f.png}
+    \caption{Simulation plots for $W/L = 4\mu/2\mu$.}
+\end{figure}
+\textit{Discussion:} [Compare noise performance and trade-offs with respect to part (e).]
+
+\subsection*{(g) Comparison Summary}
+\begin{table}[H]
+    \centering
+    \caption{Noise Performance Comparison}
+    \renewcommand{\arraystretch}{1.3}
+    \begin{tabular}{@{}ccccccc@{}}
+        \toprule
+        \textbf{W/L} & \textbf{Gain} & \textbf{1/f @ 1kHz} & \textbf{$f_c$} & \textbf{$v_{n_{out,Total}}$} & \textbf{$v_{n_{in,Total}}$} \\
+        \midrule
+        $0.36\mu / 0.18\mu$ &  &  &  &  &  \\
+        $2\mu / 1\mu$ &  &  &  &  &  \\
+        $4\mu / 2\mu$ &  &  &  &  &  \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+\textit{Inference:} [Summarize and infer the comparison here.]
+
+\newpage
+% ==========================================
+% QUESTION 4: Noise Efficiency Factor (NEF)
+% ==========================================
+\section*{4. Noise Efficiency Factor (NEF)}
+
+\subsection*{(a) Interpretation of NEF}
+[Discuss whether a higher or lower NEF is better based on the definition.]
+
+\subsection*{(b) Derivation of $v_{n_{in,rms}}$ Expression}
+\begin{equation}
+    v_{n_{in,rms}} = \dots
+\end{equation}
+
+\subsection*{(c) Noise Contributions Calculation}
+\begin{table}[H]
+    \centering
+    \caption{Noise Contributions for Given Cases (1 Hz to 1 MHz)}
+    \renewcommand{\arraystretch}{1.3}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{@{}ccccccccc@{}}
+        \toprule
+        \textbf{Case} & \textbf{$(W_1/L_1)$} & \textbf{$(W_2/L_2)$} & \textbf{m1.id} & \textbf{m1.loverf} & \textbf{m2.id} & \textbf{m2.loverf} & \textbf{Gain} & \textbf{$v_{n_{in,rms}}$} \\
+        \midrule
+        i   & $0.18\mu/0.18\mu$ & $0.18\mu/0.18\mu$ & & & & & & \\
+        ii  & $1\mu/1\mu$       & $1\mu/1\mu$       & & & & & & \\
+        iii & $10\mu/10\mu$     & $10\mu/10\mu$     & & & & & & \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.9\textwidth]{your_image_q4c.png}
+    \caption{Noise, Gain, and BW plots for the three cases.}
+\end{figure}
+
+\subsection*{(d) NEF Calculation and Tabulation}
+\begin{table}[H]
+    \centering
+    \caption{Noise Efficiency Factor for the Three Designs}
+    \renewcommand{\arraystretch}{1.3}
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{@{}ccccccc@{}}
+        \toprule
+        \textbf{Design} & \textbf{Gain} & \textbf{Amp BW (-3-dB)} & \textbf{$I_{DC}$} & \textbf{$v_{n_{in,rms}}$ (Due to $M_1, M_2$)} & \textbf{NEF} \\
+        \midrule
+        1 (Case i)   & & & & & \\
+        2 (Case ii)  & & & & & \\
+        3 (Case iii) & & & & & \\
+        \bottomrule
+    \end{tabular}}
+\end{table}
+\textit{Inference:} [Briefly present your inferences here.]
+
+\subsection*{(e) Proposed Modification to Reduce NEF}
+\textbf{Proposed Modification:} [Explain your circuit modification] \\
+\textbf{Calculated NEF for Modified Design:} \dots
+
+\begin{figure}[H]
+    \centering
+    % \includegraphics[width=0.8\textwidth]{your_image_q4e.png}
+    \caption{Simulation results of the modified design.}
+\end{figure}
+
+\end{document}

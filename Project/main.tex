@@ -1,0 +1,223 @@
+\documentclass[12pt, a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{caption}
+\usepackage{hyperref}
+
+% --- Document Info ---
+\title{\textbf{Analog IC Design: Course Project Report}\\
+\large Design of a Programmable Gain Amplifier Using a Fully Differential OTA with 5T OTA-Based CMFB and DC Offset Cancellation}
+\author{\textbf{Name:} [Your Name] \\ \textbf{Roll Number:} [Your Roll No.]}
+\date{Spring 2026 \\ Due: 5-May-2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+    \textbf{Instructor:} Prof. Abhishek Srivastava, CVEST, IIIT Hyderabad
+\end{center}
+
+\vspace{2em}
+
+\begin{abstract}
+This report details the design and simulation of a fully differential operational transconductance amplifier (OTA) and its application as the core building block of a programmable gain amplifier (PGA). The design incorporates a 5-transistor OTA-based continuous-time common-mode feedback (CMFB) and a DC offset cancellation (DCOC) loop to remove low-frequency offsets. The design is implemented and simulated using SCL 180 nm CMOS technology models in Cadence Virtuoso.
+\end{abstract}
+
+\newpage
+\tableofcontents
+\newpage
+
+% ---------------------------------------------------------
+\section{Complete Schematics and Netlists}
+% ---------------------------------------------------------
+This section includes the complete, annotated schematics and netlists for the proposed architecture, including the fully differential OTA, CMFB circuit, DCOC loop, and the programmable feedback network.
+
+\begin{figure}[H]
+    \centering
+    % Replace with your actual image file. Naming convention: Name_RollNo_FigureX.png/pdf
+    % \includegraphics[width=0.8\textwidth]{Name_RollNo_Figure1.png}
+    \caption{Annotated block-level schematic of the PGA (5T OTA + CMFB + DCOC).}
+    \label{fig:top_schematic}
+\end{figure}
+
+\subsection{Netlists}
+\begin{verbatim}
+% Insert your critical netlist components here
+\end{verbatim}
+
+% ---------------------------------------------------------
+\section{Hand Calculations}
+% ---------------------------------------------------------
+\subsection{Required Transconductance}
+To meet the updated UGB target (based on the new 75 kHz -3dB bandwidth) with $C_L = 1$ pF, the required transconductance is calculated as:
+\begin{equation}
+    UGB \approx \frac{g_m}{2\pi C_L} \implies g_m = 2\pi \cdot UGB \cdot C_L
+\end{equation}
+% Add your numeric substitution and assumptions (e.g., chosen Vov) here.
+
+\subsection{Bias Current for the Differential Pair}
+Using the estimated $g_m$ and an assumed overdrive voltage $V_{ov}$, the drain current $I_D$ is:
+\begin{equation}
+    g_m \approx \frac{2I_D}{V_{ov}} \implies I_D = \frac{g_m \cdot V_{ov}}{2}
+\end{equation}
+% Add your W/L assumptions and total tail current calculations here.
+
+\subsection{Open-loop Gain Estimate}
+The open-loop gain is estimated using $A_{OL} \approx g_m r_o$.
+% Add your derivations based on channel-length modulation (\lambda).
+
+\subsection{CMFB Loop Bias Calculations}
+% Add computations for required transconductance and bias current for the CMFB OTA to meet the >40 dB loop gain target.
+
+\subsection{Offset Cancellation Filter Sizing}
+% Detail your R_{OC}C_{OC} choices. Justify the tradeoff for f_{HP} (1-10 kHz).
+
+\subsection{Transistor Sizing Summary}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{} l c c c @{}}
+        \toprule
+        \textbf{Transistor} & \textbf{W ($\mu$m)} & \textbf{L ($\mu$m)} & \textbf{Justification/Reason} \\
+        \midrule
+        M1, M2 (Input Pair) & ... & ... & ... \\
+        M3, M4 (Active Load)& ... & ... & ... \\
+        M5 (Tail Current)   & ... & ... & ... \\
+        CMFB Transistors    & ... & ... & ... \\
+        Switches            & ... & ... & ... \\
+        \bottomrule
+    \end{tabular}
+    \caption{Proposed transistor sizes for the primary OTA and CMFB.}
+\end{table}
+
+% ---------------------------------------------------------
+\section{Simulations and Results}
+% ---------------------------------------------------------
+\textit{Note: All plots include proper axis labels, units, and Name/Roll No. annotations.}
+
+\subsection{DC Operating Point}
+All voltage biases are generated using current mirrors. The bias stability over the tail/global bias sweep is shown in Figure \ref{fig:dc_sweep}.
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{} l c c c @{}}
+        \toprule
+        \textbf{Node / Branch} & \textbf{Voltage (V)} & \textbf{Current ($\mu$A)} & \textbf{Region of Operation} \\
+        \midrule
+        Tail Node & ... & ... & Saturation \\
+        Output Nodes & ... & ... & Saturation \\
+        \bottomrule
+    \end{tabular}
+    \caption{DC Operating Point Bias Table.}
+\end{table}
+
+\subsection{AC / Small-Signal Analysis}
+% Include plots for Ad(f) and Acm(f). 
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{} l c @{}}
+        \toprule
+        \textbf{Frequency} & \textbf{CMRR (dB)} \\
+        \midrule
+        10 kHz & ... \\
+        1 MHz  & ... \\
+        10 MHz & ... \\
+        \bottomrule
+    \end{tabular}
+    \caption{CMRR at representative frequencies.}
+\end{table}
+
+\subsection{Stability Analysis}
+% Insert loop-break point screenshots and loop-gain (mag/phase) plots.
+% Report differential phase margin and gain margin.
+% Report CMFB loop-gain, unity gain frequency, and CMFB phase margin.
+
+\subsection{Transient / Large-Signal Analysis}
+% Include output waveforms for sinusoidal inputs (annotating distortion/clipping).
+% Include large step response for slew-rate calculation.
+% Include settling time to 2% and 1%.
+
+\subsection{Noise Analysis}
+% Plot input-referred noise spectral density vn,in(f) from 1 Hz to 10 MHz.
+% Report vn,in at 1 kHz and integrated RMS noise over 1 Hz–10 MHz.
+
+\subsection{Offset Cancellation (DCOC)}
+% Detail output DC offset before and after DCOC. Plot output DC vs time showing convergence.
+% Compute input-referred offset Vos.
+
+\subsection{Programmable Gain Verification}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{} c c c c c @{}}
+        \toprule
+        \textbf{Control Code} & \textbf{Measured Gain (dB)} & \textbf{Measured Gain (V/V)} & \textbf{-3dB Bandwidth} & \textbf{Gain Error (\%)} \\
+        \midrule
+        Code 00 & ... & ... & ... & ... \\
+        Code 01 & ... & ... & ... & ... \\
+        ... & ... & ... & ... & ... \\
+        \bottomrule
+    \end{tabular}
+    \caption{Measured closed-loop gain and bandwidth vs. control code.}
+\end{table}
+
+\subsection{PSRR and PVT Analysis}
+% Report PSRR at low freq and at UGB.
+% Include a table showing Worst-case values across TT, FF, SS corners, +/- 10% supply, and -40 to 125 C temperatures.
+
+% ---------------------------------------------------------
+\section{Discussion, Conclusion, and Target Comparison}
+% ---------------------------------------------------------
+
+\subsection{OTA Specifications Comparison}
+\begin{table}[H]
+    \centering
+    \resizebox{\textwidth}{!}{
+    \begin{tabular}{@{} l c c @{}}
+        \toprule
+        \textbf{Parameter} & \textbf{Target Specification} & \textbf{Simulated / Measured} \\
+        \midrule
+        Technology & SCL 180 nm CMOS & ... \\
+        Supply voltage & 1.8 V & ... \\
+        Output load capacitance $C_L$ & 1 pF & ... \\
+        DC open-loop gain & $\ge 70$ dB & ... \\
+        -3dB bandwidth & $\ge 75$ kHz & ... \\
+        Phase margin & $50^{\circ} - 80^{\circ}$ & ... \\
+        CMRR & $\ge 80$ dB & ... \\
+        PSRR & $\ge 65$ dB & ... \\
+        Slew rate & $\ge 20$ V/$\mu$s & ... \\
+        Settling time (2\%) & $\le 200$ ns & ... \\
+        Total OTA + CMFB power & $\le 1$ mW & ... \\
+        Input-referred noise @ 1 kHz & $\le 35$ nV/$\sqrt{\text{Hz}}$ & ... \\
+        Output DC offset after DCOC & $\le 10$ mV & ... \\
+        \bottomrule
+    \end{tabular}}
+    \caption{Primary OTA specification compliance.}
+\end{table}
+
+\subsection{PGA Specifications Comparison}
+\begin{table}[H]
+    \centering
+    \begin{tabular}{@{} l c c @{}}
+        \toprule
+        \textbf{Parameter} & \textbf{Target Specification} & \textbf{Simulated / Measured} \\
+        \midrule
+        Closed-loop gain range (dB) & 10 dB -- 50 dB & ... \\
+        -3dB Bandwidth for 50 dB gain & 750 kHz & ... \\
+        Gain error & $\le 5\%$ & ... \\
+        Total power (including DCOC) & $< 1.5$ mW & ... \\
+        \bottomrule
+    \end{tabular}
+    \caption{PGA specification compliance.}
+\end{table}
+
+\subsection{Conclusion}
+% Provide a discussion of the results, highlighting any trade-offs made during the design process (e.g., bandwidth vs. power, stability vs. speed).
+
+\end{document}
